@@ -15,6 +15,11 @@ system available for immediate download.
 
 We appreciate both your interest and your patience during this period
 
+# Where's the code?!
+
+For those out there that just want the goods, the actual code for the SIMP
+project is hosted under the [SIMP Github Organization](https://github.com/simp).
+
 ## Description
 
 SIMP is a framework that aims to provide a reasonable combination of security
@@ -106,18 +111,154 @@ Released under the [Apache License, Version 2](http://www.apache.org/licenses/LI
  
 ## Community
 
+### Issue Tracker
+
+[SIMP Project JIRA](https://simp-project.atlassian.net)
+
+* Feel free to sign up for an account here to file bugs, help track issues, or vote for your favorite feature.
+* We suggest using the Agile board view to see what we're currently working on.
+
+### Chat Room
+
+[SIMP Project HipChat](https://simp-project.hipchat.com)
+
+* It is **highly** suggested that you either use a non-primary e-mail for this or that you use an e-mail modifier such as (+simp).
+* When signing up for a new account, use *simp-project* as the team name.
+
+### Code Review System
+
+The SIMP Project is using [GerritHub](https://gerrithub.io) for code review activities.
+
+#### Dashboards
+
+* [Open Changes](https://review.gerrithub.io/#/dashboard/?title=SIMP+Open+Changes&project=^simp+-is:abandoned)
+* [Fully Reviewed Changes](https://review.gerrithub.io/#/dashboard/?title=SIMP+Fully+Reviewed+Changes&project=^simp+-is:abandoned+label:Code-Review+2+label:Verified+1)
+* [Failing Changes](https://review.gerrithub.io/#/dashboard/?title=SIMP+Failing+Changes&project=^simp+-is:abandoned+(label:Code-Review-1+OR+label:Verified-1))
+* [Open Mergeable Changes](https://review.gerrithub.io/#/dashboard/?title=SIMP+Open+Mergeable+Changes&project=^simp+is:mergeable+-is:abandoned)
+* [Pending Changes](https://review.gerrithub.io/#/dashboard/?title=SIMP+Pending+Changes&project=^simp+status:pending+-is:abandoned)
+* [Submitted Changes](https://review.gerrithub.io/#/dashboard/?title=SIMP+Submitted+Changes&project=^simp+status:submitted+-is:abandoned)
+* [Merged Changes](https://review.gerrithub.io/#/q/is:merged+project:^simp/.*)
+
 ### Google Groups
 
-[simp](https://groups.google.com/forum/?fromgroups#!forum/simp) : A QA Board for the general community.
-
-[simp-users](https://groups.google.com/forum/?fromgroups#!forum/simp-users) : A place for users of SIMP to ask questions, get help, and be part of the community.
-
-[simp-dev](https://groups.google.com/forum/?fromgroups#!forum/simp-dev) : This list is for the development community interested in extending or contributing to the platform.
-
-[simp-announce](https://groups.google.com/forum/?fromgroups#!forum/simp-announce) : Announcements for new versions and security events.
-
-[simp-security](https://groups.google.com/forum/?fromgroups#!forum/simp-security) : A place to file security related issues that will only be seen by the SIMP team.
+* [simp](https://groups.google.com/forum/?fromgroups#!forum/simp) : A QA Board for the general community.
+* [simp-users](https://groups.google.com/forum/?fromgroups#!forum/simp-users) : A place for users of SIMP to ask questions, get help, and be part of the community.
+* [simp-dev](https://groups.google.com/forum/?fromgroups#!forum/simp-dev) : This list is for the development community interested in extending or contributing to the platform.
+* [simp-announce](https://groups.google.com/forum/?fromgroups#!forum/simp-announce) : Announcements for new versions and security events.
+* [simp-security](https://groups.google.com/forum/?fromgroups#!forum/simp-security) : A place to file security related issues that will only be seen by the SIMP team.
  
 ### Contributions
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for information on how to contribute to this project.
+
+## Component Repositories
+
+Last, but not least, this is the list of all SIMP component modules as hosted under the [SIMP](https://github.com/simp) project space.
+
+### SIMP Provided Materials
+
+#### Build Materials
+
+* [simp-core](https://github.com/simp/simp-core)
+* [simp-doc](https://github.com/simp/simp-doc)
+* [simp-rsync](https://github.com/simp/simp-rsync)
+
+#### Puppet Modules
+
+* [pupmod-simp-acpid](https://github.com/simp/pupmod-simp-acpid)
+* [pupmod-simp-activemq](https://github.com/simp/pupmod-simp-activemq)
+* [pupmod-simp-aide](https://github.com/simp/pupmod-simp-aide)
+* [pupmod-simp-apache](https://github.com/simp/pupmod-simp-apache)
+* [pupmod-simp-auditd](https://github.com/simp/pupmod-simp-auditd)
+* [pupmod-simp-autofs](https://github.com/simp/pupmod-simp-autofs)
+* [pupmod-simp-backuppc](https://github.com/simp/pupmod-simp-backuppc)
+* [pupmod-simp-cgroups](https://github.com/simp/pupmod-simp-cgroups)
+* [pupmod-simp-clamav](https://github.com/simp/pupmod-simp-clamav)
+* [pupmod-simp-common](https://github.com/simp/pupmod-simp-common)
+* [pupmod-simp-concat](https://github.com/simp/pupmod-simp-concat)
+* [pupmod-simp-dhcp](https://github.com/simp/pupmod-simp-dhcp)
+* [pupmod-simp-elasticsearch](https://github.com/simp/pupmod-simp-elasticsearch)
+* [pupmod-simp-freeradius](https://github.com/simp/pupmod-simp-freeradius)
+* [pupmod-simp-functions](https://github.com/simp/pupmod-simp-functions)
+* [pupmod-simp-ganglia](https://github.com/simp/pupmod-simp-ganglia)
+* [pupmod-simp-gfs2](https://github.com/simp/pupmod-simp-gfs2)
+* [pupmod-simp-iptables](https://github.com/simp/pupmod-simp-iptables)
+* [pupmod-simp-jenkins](https://github.com/simp/pupmod-simp-jenkins)
+* [pupmod-simp-kibana](https://github.com/simp/pupmod-simp-kibana)
+* [pupmod-simp-krb5](https://github.com/simp/pupmod-simp-krb5)
+* [pupmod-simp-libvirt](https://github.com/simp/pupmod-simp-libvirt)
+* [pupmod-simp-logrotate](https://github.com/simp/pupmod-simp-logrotate)
+* [pupmod-simp-logstash](https://github.com/simp/pupmod-simp-logstash)
+* [pupmod-simp-mcafee](https://github.com/simp/pupmod-simp-mcafee)
+* [pupmod-simp-mcollective](https://github.com/simp/pupmod-simp-mcollective)
+* [pupmod-simp-mozilla](https://github.com/simp/pupmod-simp-mozilla)
+* [pupmod-simp-multipathd](https://github.com/simp/pupmod-simp-multipathd)
+* [pupmod-simp-named](https://github.com/simp/pupmod-simp-named)
+* [pupmod-simp-network](https://github.com/simp/pupmod-simp-network)
+* [pupmod-simp-nfs](https://github.com/simp/pupmod-simp-nfs)
+* [pupmod-simp-nscd](https://github.com/simp/pupmod-simp-nscd)
+* [pupmod-simp-ntpd](https://github.com/simp/pupmod-simp-ntpd)
+* [pupmod-simp-oddjob](https://github.com/simp/pupmod-simp-oddjob)
+* [pupmod-simp-openldap](https://github.com/simp/pupmod-simp-openldap)
+* [pupmod-simp-openscap](https://github.com/simp/pupmod-simp-openscap)
+* [pupmod-simp-pam](https://github.com/simp/pupmod-simp-pam)
+* [pupmod-simp-pki](https://github.com/simp/pupmod-simp-pki)
+* [pupmod-simp-polkit](https://github.com/simp/pupmod-simp-polkit)
+* [pupmod-simp-postfix](https://github.com/simp/pupmod-simp-postfix)
+* [pupmod-simp-pupmod](https://github.com/simp/pupmod-simp-pupmod)
+* [pupmod-simp-rsync](https://github.com/simp/pupmod-simp-rsync)
+* [pupmod-simp-rsyslog](https://github.com/simp/pupmod-simp-rsyslog)
+* [pupmod-simp-site](https://github.com/simp/pupmod-simp-site)
+* [pupmod-simp-selinux](https://github.com/simp/pupmod-simp-selinux)
+* [pupmod-simp-shinken](https://github.com/simp/pupmod-simp-shinken)
+* [pupmod-simp-simp](https://github.com/simp/pupmod-simp-simp)
+* [pupmod-simp-snmpd](https://github.com/simp/pupmod-simp-snmpd)
+* [pupmod-simp-ssh](https://github.com/simp/pupmod-simp-ssh)
+* [pupmod-simp-sssd](https://github.com/simp/pupmod-simp-sssd)
+* [pupmod-simp-stunnel](https://github.com/simp/pupmod-simp-stunnel)
+* [pupmod-simp-sudo](https://github.com/simp/pupmod-simp-sudo)
+* [pupmod-simp-sudosh](https://github.com/simp/pupmod-simp-sudosh)
+* [pupmod-simp-svckill](https://github.com/simp/pupmod-simp-svckill)
+* [pupmod-simp-sysctl](https://github.com/simp/pupmod-simp-sysctl)
+* [pupmod-simp-tcpwrappers](https://github.com/simp/pupmod-simp-tcpwrappers)
+* [pupmod-simp-tftpboot](https://github.com/simp/pupmod-simp-tftpboot)
+* [pupmod-simp-tpm](https://github.com/simp/pupmod-simp-tpm)
+* [pupmod-simp-upstart](https://github.com/simp/pupmod-simp-upstart)
+* [pupmod-simp-vnc](https://github.com/simp/pupmod-simp-vnc)
+* [pupmod-simp-vsftpd](https://github.com/simp/pupmod-simp-vsftpd)
+* [pupmod-simp-windowmanager](https://github.com/simp/pupmod-simp-windowmanager)
+* [pupmod-simp-xinetd](https://github.com/simp/pupmod-simp-xinetd)
+* [pupmod-simp-xwindows](https://github.com/simp/pupmod-simp-xwindows)
+
+#### Forked External Modules
+
+Most forks are simply to fit the materials into our build processes but some
+have modifications that we are looking to push back upstream when possible.
+
+* [rubygem-simp-rake-helpers](https://github.com/simp/rubygem-simp-rake-helpers)
+* [rubygem-simp-cli](https://github.com/simp/rubygem-simp-cli)
+* [augeasproviders](https://github.com/simp/augeasproviders)
+* [augeasproviders_apache](https://github.com/simp/augeasproviders_apache)
+* [augeasproviders_base](https://github.com/simp/augeasproviders_base)
+* [augeasproviders_core](https://github.com/simp/augeasproviders_core)
+* [augeasproviders_grub](https://github.com/simp/augeasproviders_grub)
+* [augeasproviders_mounttab](https://github.com/simp/augeasproviders_mounttab)
+* [augeasproviders_nagios](https://github.com/simp/augeasproviders_nagios)
+* [augeasproviders_pam](https://github.com/simp/augeasproviders_pam)
+* [augeasproviders_postgresql](https://github.com/simp/augeasproviders_postgresql)
+* [augeasproviders_puppet](https://github.com/simp/augeasproviders_puppet)
+* [augeasproviders_shellvar](https://github.com/simp/augeasproviders_shellvar)
+* [augeasproviders_ssh](https://github.com/simp/augeasproviders_ssh)
+* [puppet-elasticsearch](https://github.com/simp/puppet-elasticsearch)
+* [puppetlabs-apache](https://github.com/simp/puppetlabs-apache)
+* [puppetlabs-postgresql](https://github.com/simp/puppetlabs-postgresql)
+* [puppetlabs-stdlib](https://github.com/simp/puppetlabs-stdlib)
+* [puppetlabs-inifile](https://github.com/simp/puppetlabs-inifile)
+* [puppetlabs-puppetdb](https://github.com/simp/puppetlabs-puppetdb)
+* [puppetlabs-mysql](https://github.com/simp/puppetlabs-mysql)
+* [puppetlabs-java](https://github.com/simp/puppetlabs-java)
+* [puppet-gpasswd](https://github.com/simp/puppet-gpasswd)
+* [augeasproviders_sysctl](https://github.com/simp/augeasproviders_sysctl)
+* [puppet-datacat](https://github.com/simp/puppet-datacat)
+* [puppetlabs-java_ks](https://github.com/simp/puppetlabs-java_ks)
+* [puppet-memcached](https://github.com/simp/puppet-memcached)
