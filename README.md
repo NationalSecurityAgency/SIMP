@@ -147,7 +147,7 @@ The SIMP Project is using [GerritHub](https://gerrithub.io) for code review acti
 * [simp-announce](https://groups.google.com/forum/?fromgroups#!forum/simp-announce) : Announcements for new versions and security events.
 * [simp-security](https://groups.google.com/forum/?fromgroups#!forum/simp-security) : A place to file security related issues that will only be seen by the SIMP team.
 
-Prior to joinging a mailing list, please review our [Community Code of Conduct](Community_Code_of_Conduct.md).
+Prior to joining a mailing list, please review our [Community Code of Conduct](Community_Code_of_Conduct.md).
 
 ### Contributions
 
