@@ -1,5 +1,5 @@
 # System Integrity Management Platform (SIMP)
- 
+
 ## IMPORTANT
 
 This project is only approved for material that is completely releasable to the
@@ -13,7 +13,9 @@ Please be aware that this project is in the process of transitioning legacy
 code into GitHub. It may take quite some time before we have a fully functional
 system available for immediate download.
 
-We appreciate both your interest and your patience during this period
+We appreciate both your interest and your patience during this period.
+
+You can follow our progress at our [JIRA](https://simp-project.atlassian.net) page.
 
 # Where's the code?!
 
@@ -27,16 +29,14 @@ compliance and operational flexibility.
 
 The ultimate goal of the project is to provide a complete management
 environment focused on compliance with the various profiles in the
-[SCAP Security Guide Project](https://fedorahosted.org/scap-security-guide/)
-and industry best practice.
+[SCAP Security Guide Project](https://fedorahosted.org/scap-security-guide/) and industry best practice.
 
 Though it is fully capable out of the box, the intent of SIMP is to be molded
 to your target environment in such a way that deviations are easily identifiable
 to both Operations Teams and Security Officers.
 
 At this time, there are no commercial requirements for the use of SIMP outside
-of the purchase of [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-licenses as applicable.
+of the purchase of [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) licenses as applicable.
 
 ### Disclaimer
 
@@ -74,9 +74,9 @@ The following Operating Systems are supported:
 * [CentOS](https://www.centos.org/)
     * 6.6
     * 7.1-1503-01
- 
+
 ## Technology components
- 
+
 SIMP uses Puppet to manage and maintain the configuration of the various
 component systems.
 
@@ -93,7 +93,7 @@ Though there are many possible configurations, out of the box SIMP provides:
     * DNS
     * DHCP
     * TFTP
- 
+
 ## Copyrights
 > All materials are copyright their respective owners unless otherwise noted.
 >
@@ -106,9 +106,9 @@ Though there are many possible configurations, out of the box SIMP provides:
 > The United States Government has unlimited rights in this software and all
 > derivatives thereof, pursuant to the contracts under which it was developed and
 > the License under which it falls.
- 
+
 Released under the [Apache License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.html "Apache License v2").
- 
+
 ## Community
 
 ### Issue Tracker
@@ -146,7 +146,9 @@ The SIMP Project is using [GerritHub](https://gerrithub.io) for code review acti
 * [simp-dev](https://groups.google.com/forum/?fromgroups#!forum/simp-dev) : This list is for the development community interested in extending or contributing to the platform.
 * [simp-announce](https://groups.google.com/forum/?fromgroups#!forum/simp-announce) : Announcements for new versions and security events.
 * [simp-security](https://groups.google.com/forum/?fromgroups#!forum/simp-security) : A place to file security related issues that will only be seen by the SIMP team.
- 
+
+Prior to joinging a mailing list, please review our [Community Code of Conduct](Community_Code_of_Conduct.md).
+
 ### Contributions
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for information on how to contribute to this project.
