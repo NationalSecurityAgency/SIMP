@@ -231,14 +231,14 @@ Last, but not least, this is the list of all SIMP component modules as hosted un
 * [pupmod-simp-windowmanager](https://github.com/simp/pupmod-simp-windowmanager)
 * [pupmod-simp-xinetd](https://github.com/simp/pupmod-simp-xinetd)
 * [pupmod-simp-xwindows](https://github.com/simp/pupmod-simp-xwindows)
+* [rubygem-simp-rake-helpers](https://github.com/simp/rubygem-simp-rake-helpers)
+* [rubygem-simp-cli](https://github.com/simp/rubygem-simp-cli)
 
 #### Forked External Modules
 
 Most forks are simply to fit the materials into our build processes but some
 have modifications that we are looking to push back upstream when possible.
 
-* [rubygem-simp-rake-helpers](https://github.com/simp/rubygem-simp-rake-helpers)
-* [rubygem-simp-cli](https://github.com/simp/rubygem-simp-cli)
 * [augeasproviders](https://github.com/simp/augeasproviders)
 * [augeasproviders_apache](https://github.com/simp/augeasproviders_apache)
 * [augeasproviders_base](https://github.com/simp/augeasproviders_base)
