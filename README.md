@@ -20,7 +20,7 @@ You can follow our progress at our [JIRA](https://simp-project.atlassian.net) pa
 # Where's the code?!
 
 For those out there that just want the goods, the actual code for the SIMP
-project is hosted under the [SIMP Github Organization](https://github.com/simp).
+project is hosted under the [SIMP GitHub Organization](https://github.com/simp).
 
 ## Description
 
