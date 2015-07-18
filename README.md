@@ -22,6 +22,10 @@ You can follow our progress at our [JIRA](https://simp-project.atlassian.net) pa
 For those out there that just want the goods, the actual code for the SIMP
 project is hosted under the [SIMP GitHub Organization](https://github.com/simp).
 
+# Documentation
+
+You can find our documentation on [ReadTheDocs.org](http://simp.readthedocs.org/en/latest/).
+
 ## Description
 
 SIMP is a framework that aims to provide a reasonable combination of security
