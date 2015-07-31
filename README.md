@@ -163,6 +163,12 @@ Last, but not least, this is the list of all SIMP component modules as hosted un
 
 ### SIMP Provided Materials
 
+#### RPMs
+
+SIMP will be distributing RPMs via [BinTray](https://bintray.com/simp) as we move forward.
+
+Please make sure that the RPMs are properly signed with the GPG key listed below.
+
 #### GPG Signing Key
 
 All officially released RPMs are signed with the [SIMP Release Key](https://github.com/NationalSecurityAgency/SIMP/blob/master/GPGKEYS/RPM-GPG-KEY-SIMP)
