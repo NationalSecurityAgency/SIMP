@@ -165,7 +165,7 @@ Last, but not least, this is the list of all SIMP component modules as hosted un
 
 #### GPG Signing Key
 
-All officially released RPMs are signed with the [SIMP Release Key](https://github.com/NationalSecurityAgency/SIMP/GPGKEYS/RPM-GPG-KEY-SIMP)
+All officially released RPMs are signed with the [SIMP Release Key](https://github.com/NationalSecurityAgency/SIMP/blob/master/GPGKEYS/RPM-GPG-KEY-SIMP)
 * ID: 7DA6F216
 * Fingerprint: 103B 439D ADF4 AE61 FA69  98AF EE8C 77AF 7DA6 F216
 
