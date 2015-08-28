@@ -7,24 +7,24 @@ public.
 
 **Please do not upload material that has not been approved for public release.**
 
-# **MIGRATION IN PROGRESS**
-
-Please be aware that this project is in the process of transitioning legacy
-code into GitHub. It may take quite some time before we have a fully functional
-system available for immediate download.
-
-We appreciate both your interest and your patience during this period.
-
-You can follow our progress at our [JIRA](https://simp-project.atlassian.net) page.
-
 # Where's the code?!
 
 For those out there that just want the goods, the actual code for the SIMP
 project is hosted under the [SIMP GitHub Organization](https://github.com/simp).
 
+You'll want to check the [Getting Started Documentation](https://simp-project.atlassian.net/wiki/display/SD/Setting+up+your+environment)
+to understand how to build the project.
+
 # Documentation
 
-You can find our documentation on [ReadTheDocs.org](http://simp.readthedocs.org/en/latest/).
+## Build Documentation
+
+Documentation on how to build the release is on the project
+[Confluence Wiki](https://simp-project.atlassian.net/wiki/display/SD/Compiling+the+SIMP+ISO+build).
+
+## User Documentation
+
+You can find our product documentation on [ReadTheDocs.org](http://simp.readthedocs.org/en/latest/).
 
 ## Description
 
@@ -40,7 +40,8 @@ to your target environment in such a way that deviations are easily identifiable
 to both Operations Teams and Security Officers.
 
 At this time, there are no commercial requirements for the use of SIMP outside
-of the purchase of [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) licenses as applicable.
+of the purchase of [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+licenses as applicable.
 
 ### Disclaimer
 
@@ -68,16 +69,19 @@ Nothing in this Work is intended to constitute an endorsement, explicit or
 implied, by the US Government of any particular manufacturer's product or
 service.
 
-## Supported Operating Systems
+## Latest Releases
 
-The following Operating Systems are supported:
-
-* [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-    * 6.6
+* [5.1.0-Beta](https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.1.0-Beta)
+  * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
     * 7.1
-* [CentOS](https://www.centos.org/)
-    * 6.6
+  * [CentOS](https://www.centos.org/)
     * 7.1-1503-01
+
+* [4.2.0-Beta2](https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.2.0-Beta2)
+  * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+    * 6.7
+  * [CentOS](https://www.centos.org/)
+    * 6.7
 
 ## Technology components
 
