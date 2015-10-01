@@ -71,17 +71,19 @@ service.
 
 ## Latest Releases
 
-* [5.1.0-Beta](https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.1.0-Beta)
+* [5.1.0-RC1](https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.1.0-RC1)
   * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-    * 7.1
+    * 7.1 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-5.1.0-RC1.tar.gz))
   * [CentOS](https://www.centos.org/)
-    * 7.1-1503-01
+    * 7.1-1503-01 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.1.0-RC1.tar.gz))
 
-* [4.2.0-Beta2](https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.2.0-Beta2)
+* [4.2.0-RC1](https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.2.0-RC1)
   * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-    * 6.7
+    * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.2.0-RC1.tar.gz))
   * [CentOS](https://www.centos.org/)
-    * 6.7
+    * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.2.0-RC1.tar.gz))
+
+Using these bundles, you can either [Compile your own ISO](https://simp-project.atlassian.net/wiki/display/SD/Compiling+the+SIMP+ISO+build), or you can [Install onto an Existing Server](https://simp-project.atlassian.net/wiki/display/SD/Installing+a+SIMP+server+from+a+tarball).
 
 ## Technology components
 
