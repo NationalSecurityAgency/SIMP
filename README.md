@@ -12,27 +12,43 @@ public.
 For those out there that just want the goods, the actual code for the SIMP
 project is hosted under the [SIMP GitHub Organization](https://github.com/simp).
 
-You'll want to check the [Getting Started Documentation](https://simp-project.atlassian.net/wiki/display/SD/Setting+up+your+environment)
-to understand how to build the project.
+## Quickstart
 
-# Documentation
+### New System/Bare Metal
 
-## Build Documentation
+If you're using a new system such as a blank VM or a bare metal system, you will want to follow the [instructions for building an ISO](https://simp-project.atlassian.net/wiki/display/SD/Compiling+the+SIMP+Tarball+and+ISO).
 
-Documentation on how to build the release is on the project
-[Confluence Wiki](https://simp-project.atlassian.net/wiki/display/SD/Compiling+the+SIMP+ISO+build).
+### Existing System Migration
+
+If you are looking to use the SIMP materials on an existing system, instructions are available on the [SIMP Confluence](https://simp-project.atlassian.net/wiki/display/SD/Installing+SIMP+on+an+existing+system).
 
 ## User Documentation
 
-You can find our product documentation on [ReadTheDocs.org](http://simp.readthedocs.org/en/latest/).
+Product documentation is housed at [ReadTheDocs.org](http://simp.readthedocs.org/en/latest/).
+
+## Latest Releases
+
+*NOTE* Release artifacts are all hosted on [Bintray](https://bintray.com/simp)
+
+* [5.1.0-0](https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.1.0-0)
+  * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+    * 7.1 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-5.1.0-0.tar.gz))
+  * [CentOS](https://www.centos.org/)
+    * 7.1-1503-01 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.1.0-0.tar.gz))
+
+* [4.2.0-0](https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.2.0-0)
+  * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+    * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.2.0-0.tar.gz))
+  * [CentOS](https://www.centos.org/)
+    * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.2.0-0.tar.gz))
 
 ## Description
 
-SIMP is a framework that aims to provide a reasonable combination of security
-compliance and operational flexibility.
+SIMP is a framework that provides a flexible combination of security compliance
+and operational automation.
 
-The ultimate goal of the project is to provide a complete management
-environment focused on compliance with the various profiles in the
+The goal of the project is to provide a complete management environment focused
+on compliance with the various profiles in the
 [SCAP Security Guide Project](https://fedorahosted.org/scap-security-guide/) and industry best practice.
 
 Though it is fully capable out of the box, the intent of SIMP is to be molded
@@ -68,22 +84,6 @@ technical data rights.
 Nothing in this Work is intended to constitute an endorsement, explicit or
 implied, by the US Government of any particular manufacturer's product or
 service.
-
-## Latest Releases
-
-* [5.1.0-RC1](https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.1.0-RC1)
-  * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-    * 7.1 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-5.1.0-RC1.tar.gz))
-  * [CentOS](https://www.centos.org/)
-    * 7.1-1503-01 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.1.0-RC1.tar.gz))
-
-* [4.2.0-RC1](https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.2.0-RC1)
-  * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-    * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.2.0-RC1.tar.gz))
-  * [CentOS](https://www.centos.org/)
-    * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.2.0-RC1.tar.gz))
-
-Using these bundles, you can either [Compile your own ISO](https://simp-project.atlassian.net/wiki/display/SD/Compiling+the+SIMP+ISO+build), or you can [Install onto an Existing Server](https://simp-project.atlassian.net/wiki/display/SD/Installing+a+SIMP+server+from+a+tarball).
 
 ## Technology components
 
@@ -130,10 +130,14 @@ Released under the [Apache License, Version 2](http://www.apache.org/licenses/LI
 
 ### Chat Room
 
+#### Development Chat
+
 [SIMP Project HipChat](https://simp-project.hipchat.com)
 
 * It is **highly** suggested that you either use a non-primary e-mail for this or that you use an e-mail modifier such as (+simp).
 * When signing up for a new account, use *simp-project* as the team name.
+
+####
 
 ### Code Review System
 
@@ -181,11 +185,24 @@ All officially released RPMs are signed with the [SIMP Release Key](https://gith
 * ID: 7DA6F216
 * Fingerprint: 103B 439D ADF4 AE61 FA69  98AF EE8C 77AF 7DA6 F216
 
-#### Build Materials
+#### Build Repositories
 
 * [simp-core](https://github.com/simp/simp-core)
 * [simp-doc](https://github.com/simp/simp-doc)
 * [simp-rsync](https://github.com/simp/simp-rsync)
+
+#### Helper Rubygems
+
+* [rubygem-simp-beaker-helpers](https://github.com/simp/rubygem-simp-beaker-helpers)
+* [rubygem-simp-cli](https://github.com/simp/rubygem-simp-cli)
+* [rubygem-simp-rake-helpers](https://github.com/simp/rubygem-simp-rake-helpers)
+
+### Puppet Module Skeleton
+
+The project has its own module skeleton for quickly getting up and running with
+the expected layout and testing framework for SIMP modules.
+
+* [puppet-module-skeleton](https://github.com/simp/puppet-module-skeleton)
 
 #### Puppet Modules
 
@@ -198,12 +215,9 @@ All officially released RPMs are signed with the [SIMP Release Key](https://gith
 * [pupmod-simp-backuppc](https://github.com/simp/pupmod-simp-backuppc)
 * [pupmod-simp-cgroups](https://github.com/simp/pupmod-simp-cgroups)
 * [pupmod-simp-clamav](https://github.com/simp/pupmod-simp-clamav)
-* [pupmod-simp-common](https://github.com/simp/pupmod-simp-common)
 * [pupmod-simp-concat](https://github.com/simp/pupmod-simp-concat)
 * [pupmod-simp-dhcp](https://github.com/simp/pupmod-simp-dhcp)
-* [pupmod-simp-elasticsearch](https://github.com/simp/pupmod-simp-elasticsearch)
 * [pupmod-simp-freeradius](https://github.com/simp/pupmod-simp-freeradius)
-* [pupmod-simp-functions](https://github.com/simp/pupmod-simp-functions)
 * [pupmod-simp-ganglia](https://github.com/simp/pupmod-simp-ganglia)
 * [pupmod-simp-gfs2](https://github.com/simp/pupmod-simp-gfs2)
 * [pupmod-simp-iptables](https://github.com/simp/pupmod-simp-iptables)
@@ -212,7 +226,6 @@ All officially released RPMs are signed with the [SIMP Release Key](https://gith
 * [pupmod-simp-krb5](https://github.com/simp/pupmod-simp-krb5)
 * [pupmod-simp-libvirt](https://github.com/simp/pupmod-simp-libvirt)
 * [pupmod-simp-logrotate](https://github.com/simp/pupmod-simp-logrotate)
-* [pupmod-simp-logstash](https://github.com/simp/pupmod-simp-logstash)
 * [pupmod-simp-mcafee](https://github.com/simp/pupmod-simp-mcafee)
 * [pupmod-simp-mcollective](https://github.com/simp/pupmod-simp-mcollective)
 * [pupmod-simp-mozilla](https://github.com/simp/pupmod-simp-mozilla)
@@ -232,10 +245,10 @@ All officially released RPMs are signed with the [SIMP Release Key](https://gith
 * [pupmod-simp-pupmod](https://github.com/simp/pupmod-simp-pupmod)
 * [pupmod-simp-rsync](https://github.com/simp/pupmod-simp-rsync)
 * [pupmod-simp-rsyslog](https://github.com/simp/pupmod-simp-rsyslog)
-* [pupmod-simp-site](https://github.com/simp/pupmod-simp-site)
 * [pupmod-simp-selinux](https://github.com/simp/pupmod-simp-selinux)
-* [pupmod-simp-shinken](https://github.com/simp/pupmod-simp-shinken)
 * [pupmod-simp-simp](https://github.com/simp/pupmod-simp-simp)
+* [pupmod-simp-simplib](https://github.com/simp/pupmod-simp-simplib)
+* [pupmod-simp-site](https://github.com/simp/pupmod-simp-site)
 * [pupmod-simp-snmpd](https://github.com/simp/pupmod-simp-snmpd)
 * [pupmod-simp-ssh](https://github.com/simp/pupmod-simp-ssh)
 * [pupmod-simp-sssd](https://github.com/simp/pupmod-simp-sssd)
@@ -253,8 +266,6 @@ All officially released RPMs are signed with the [SIMP Release Key](https://gith
 * [pupmod-simp-windowmanager](https://github.com/simp/pupmod-simp-windowmanager)
 * [pupmod-simp-xinetd](https://github.com/simp/pupmod-simp-xinetd)
 * [pupmod-simp-xwindows](https://github.com/simp/pupmod-simp-xwindows)
-* [rubygem-simp-rake-helpers](https://github.com/simp/rubygem-simp-rake-helpers)
-* [rubygem-simp-cli](https://github.com/simp/rubygem-simp-cli)
 
 #### Forked External Modules
 
@@ -273,16 +284,17 @@ have modifications that we are looking to push back upstream when possible.
 * [augeasproviders_puppet](https://github.com/simp/augeasproviders_puppet)
 * [augeasproviders_shellvar](https://github.com/simp/augeasproviders_shellvar)
 * [augeasproviders_ssh](https://github.com/simp/augeasproviders_ssh)
-* [puppet-elasticsearch](https://github.com/simp/puppet-elasticsearch)
-* [puppetlabs-apache](https://github.com/simp/puppetlabs-apache)
-* [puppetlabs-postgresql](https://github.com/simp/puppetlabs-postgresql)
-* [puppetlabs-stdlib](https://github.com/simp/puppetlabs-stdlib)
-* [puppetlabs-inifile](https://github.com/simp/puppetlabs-inifile)
-* [puppetlabs-puppetdb](https://github.com/simp/puppetlabs-puppetdb)
-* [puppetlabs-mysql](https://github.com/simp/puppetlabs-mysql)
-* [puppetlabs-java](https://github.com/simp/puppetlabs-java)
-* [puppet-gpasswd](https://github.com/simp/puppet-gpasswd)
 * [augeasproviders_sysctl](https://github.com/simp/augeasproviders_sysctl)
 * [puppet-datacat](https://github.com/simp/puppet-datacat)
+* [puppet-elasticsearch](https://github.com/simp/puppet-elasticsearch)
+* [puppet-gpasswd](https://github.com/simp/puppet-gpasswd)
+* [puppetlabs-inifile](https://github.com/simp/puppetlabs-inifile)
+* [puppetlabs-java](https://github.com/simp/puppetlabs-java)
 * [puppetlabs-java_ks](https://github.com/simp/puppetlabs-java_ks)
+* [puppet-logstash](https://github.com/simp/puppet-logstash)
 * [puppet-memcached](https://github.com/simp/puppet-memcached)
+* [puppetlabs-mysql](https://github.com/simp/puppetlabs-mysql)
+* [puppetlabs-postgresql](https://github.com/simp/puppetlabs-postgresql)
+* [puppetlabs-puppetdb](https://github.com/simp/puppetlabs-puppetdb)
+* [puppetlabs-apache](https://github.com/simp/puppetlabs-apache)
+* [puppetlabs-stdlib](https://github.com/simp/puppetlabs-stdlib)
