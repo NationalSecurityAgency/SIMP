@@ -30,11 +30,11 @@ Product documentation is housed at [ReadTheDocs.org](http://simp.readthedocs.org
 
 *NOTE* Release artifacts are all hosted on [Bintray](https://bintray.com/simp)
 
-* [5.1.0-1](https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.1.0-1)
+* [5.1.0-2](https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.1.0-2)
   * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-    * 7.1 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-5.1.0-1.tar.gz))
+    * 7.1 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-5.1.0-2.tar.gz))
   * [CentOS](https://www.centos.org/)
-    * 7.1-1503-01 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.1.0-1.tar.gz))
+    * 7.1-1503-01 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.1.0-2.tar.gz))
 
 * [4.2.0-0](https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.2.0-0)
   * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
