@@ -36,11 +36,11 @@ Product documentation is housed at [ReadTheDocs.org](http://simp.readthedocs.org
   * [CentOS](https://www.centos.org/)
     * 7.1-1503-01 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.1.0-2.tar.gz))
 
-* [4.2.0-0](https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.2.0-0)
+* [4.2.0-1](https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.2.0-1)
   * [Red Hat Enterprise Linux](http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
-    * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.2.0-0.tar.gz))
+    * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.2.0-1.tar.gz))
   * [CentOS](https://www.centos.org/)
-    * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.2.0-0.tar.gz))
+    * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.2.0-1.tar.gz))
 
 ## Description
 
