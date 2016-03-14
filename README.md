@@ -132,7 +132,7 @@ Released under the [Apache License, Version 2](http://www.apache.org/licenses/LI
 
 #### Development Chat
 
-[SIMP Project HipChat](https://simp-project.hipchat.com)
+[SIMP Project HipChat](https://www.hipchat.com/ggkCeNuLk) => **No account required for this room**
 
 * It is **highly** suggested that you either use a non-primary e-mail for this or that you use an e-mail modifier such as (+simp).
 * When signing up for a new account, use *simp-project* as the team name.
