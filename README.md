@@ -7,20 +7,17 @@ public.
 
 **Please do not upload material that has not been approved for public release.**
 
-# Where's the code?!
-
-For those out there that just want the goods, the actual code for the SIMP
-project is hosted under the [SIMP GitHub Organization](https://github.com/simp).
-
 ## Quickstart
-
-### New System/Bare Metal
-
-If you're using a new system such as a blank VM or a bare metal system, you will want to follow the [instructions for building an ISO](https://simp-project.atlassian.net/wiki/display/SD/Compiling+the+SIMP+Tarball+and+ISO).
 
 ### Existing System Migration
 
-If you are looking to use the SIMP materials on an existing system, instructions are available on the [SIMP Confluence](https://simp-project.atlassian.net/wiki/display/SD/Installing+SIMP+on+an+existing+system).
+If you are looking to use the SIMP materials on an existing system,
+instructions are available on the [SIMP Confluence](https://simp-project.atlassian.net/wiki/display/SD/Installing+SIMP+on+an+existing+system).
+
+### New System/Bare Metal
+
+If you're using a new system, such as a fresh VM or a bare metal system, you
+will want to follow the[instructions for building an ISO](https://simp-project.atlassian.net/wiki/display/SD/Compiling+the+SIMP+Tarball+and+ISO).
 
 ## User Documentation
 
@@ -41,6 +38,11 @@ Product documentation is housed at [ReadTheDocs.org](http://simp.readthedocs.org
     * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.2.0-1.tar.gz))
   * [CentOS](https://www.centos.org/)
     * 6.7 ([download](https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.2.0-1.tar.gz))
+
+# Where's the code?!
+
+For those out there that just want the goods, the actual code for the SIMP
+project is hosted under the [SIMP GitHub Organization](https://github.com/simp/simp-core).
 
 ## Description
 
