@@ -17,7 +17,7 @@ instructions are available on the [SIMP Confluence](https://simp-project.atlassi
 ### New System/Bare Metal
 
 If you're using a new system, such as a fresh VM or a bare metal system, you
-will want to follow the[instructions for building an ISO](https://simp-project.atlassian.net/wiki/display/SD/Compiling+the+SIMP+Tarball+and+ISO).
+will want to follow the [instructions for building an ISO](https://simp-project.atlassian.net/wiki/display/SD/Compiling+the+SIMP+Tarball+and+ISO).
 
 ## User Documentation
 
