@@ -43,26 +43,24 @@ Latest Releases
 `Bintray <https://bintray.com/simp>`__
 
 -  `5.1.0-3 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.1.0-3>`__
--  `Red Hat Enterprise Linux <http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__
 
-   -  7.2
-      (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-5.1.0-3.tar.gz>`__)
+   -  `Red Hat Enterprise Linux <http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__
 
--  `CentOS <https://www.centos.org/>`__
+      -  7.2 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-5.1.0-3.tar.gz>`__)
 
-   -  7.2-1511
-      (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.1.0-3.tar.gz>`__)
+   -  `CentOS <https://www.centos.org/>`__
+
+      -  7.2-1511 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.1.0-3.tar.gz>`__)
 
 -  `4.2.0-2 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.2.0-2>`__
--  `Red Hat Enterprise Linux <http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__
 
-   -  6.7
-      (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.2.0-2.tar.gz>`__)
+   -  `Red Hat Enterprise Linux <http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__
 
--  `CentOS <https://www.centos.org/>`__
+      -  6.7 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.2.0-2.tar.gz>`__)
 
-   -  6.7
-      (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.2.0-2.tar.gz>`__)
+   -  `CentOS <https://www.centos.org/>`__
+
+      -  6.7 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.2.0-2.tar.gz>`__)
 
 Where's the code?!
 ==================
