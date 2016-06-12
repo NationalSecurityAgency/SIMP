@@ -1,5 +1,6 @@
 .. contents:: Table of Contents
    :depth: 3
+   :backlinks: none
 
 System Integrity Management Platform (SIMP)
 ===========================================
