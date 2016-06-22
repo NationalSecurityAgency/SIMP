@@ -200,7 +200,7 @@ Dashboards
 ^^^^^^^^^^
 
 -  `Open
-   Changes <https://review.gerrithub.io/#/dashboard/?title=SIMP+Open+Changes&project=^simp+-is:abandoned>`__
+   Changes <https://review.gerrithub.io/#/dashboard/?title=SIMP+Open+Changes&project=^simp+-is:abandoned+-is:merged>`__
 -  `Fully Reviewed
    Changes <https://review.gerrithub.io/#/dashboard/?title=SIMP+Fully+Reviewed+Changes&project=^simp+-is:abandoned+label:Code-Review+2+label:Verified+1>`__
 -  `Failing
