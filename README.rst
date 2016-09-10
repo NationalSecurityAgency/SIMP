@@ -40,28 +40,35 @@ Product documentation is housed at
 Latest Releases
 ---------------
 
-*NOTE* Release artifacts are all hosted on
-`Bintray <https://bintray.com/simp>`__
+----------------------------------------
 
--  `5.1.0-3 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.1.0-3>`__
+> **NOTE**
+>
+> Release artifacts are now hosted on `PackageCloud <https://packagecloud.io/simp-project>`__
+>
+> Older releases can be found on `BinTray <https://bintray.com/simp>`__
 
-   -  `Red Hat Enterprise Linux <http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__
+----------------------------------------
 
-      -  7.2 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-5.1.0-3.tar.gz>`__)
-
-   -  `CentOS <https://www.centos.org/>`__
-
-      -  7.2-1511 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.1.0-3.tar.gz>`__)
-
--  `4.2.0-2 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.2.0-2>`__
+-  `5.2.0-0 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.2.0-0>`__
 
    -  `Red Hat Enterprise Linux <http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__
 
-      -  6.7 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.2.0-2.tar.gz>`__)
+      -  7.2 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-5.2.0-0.tar.gz>`__)
 
    -  `CentOS <https://www.centos.org/>`__
 
-      -  6.7 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.2.0-2.tar.gz>`__)
+      -  7.2-1511 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.2.0-0.tar.gz>`__)
+
+-  `4.3.0-0 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.3.0-0>`__
+
+   -  `Red Hat Enterprise Linux <http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__
+
+      -  6.8 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.3.0-0.tar.gz>`__)
+
+   -  `CentOS <https://www.centos.org/>`__
+
+      -  6.8 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.3.0-0.tar.gz>`__)
 
 Where's the code?!
 ==================
@@ -93,30 +100,30 @@ licenses as applicable.
 Disclaimer
 ~~~~~~~~~~
 
-This Work is provided "as is." Any express or implied warranties,
-including but not limited to, the implied warranties of merchantability
-and fitness for a particular purpose are disclaimed. In no event shall
-the United States Government be liable for any direct, indirect,
-incidental, special, exemplary or consequential damages (including, but
-not limited to, procurement of substitute goods or services, loss of
-use, data or profits, or business interruption) however caused and on
-any theory of liability, whether in contract, strict liability, or tort
-(including negligence or otherwise) arising in any way out of the use of
-this Guidance, even if advised of the possibility of such damage.
-
-The User of this Work agrees to hold harmless and indemnify the United
-States Government, its agents, and employees from every claim or
-liability (whether in tort or in contract), including attorneys' fees,
-court costs, and expenses, arising in direct consequence of Recipient's
-use of the item, including, but not limited to, claims or liabilities
-made for injury to or death of personnel of User or third parties,
-damage to or destruction of property of User or third parties, and
-infringement or other violations of intellectual property or technical
-data rights.
-
-Nothing in this Work is intended to constitute an endorsement, explicit
-or implied, by the US Government of any particular manufacturer's
-product or service.
+> This Work is provided "as is." Any express or implied warranties,
+> including but not limited to, the implied warranties of merchantability
+> and fitness for a particular purpose are disclaimed. In no event shall
+> the United States Government be liable for any direct, indirect,
+> incidental, special, exemplary or consequential damages (including, but
+> not limited to, procurement of substitute goods or services, loss of
+> use, data or profits, or business interruption) however caused and on
+> any theory of liability, whether in contract, strict liability, or tort
+> (including negligence or otherwise) arising in any way out of the use of
+> this Guidance, even if advised of the possibility of such damage.
+>
+> The User of this Work agrees to hold harmless and indemnify the United
+> States Government, its agents, and employees from every claim or
+> liability (whether in tort or in contract), including attorneys' fees,
+> court costs, and expenses, arising in direct consequence of Recipient's
+> use of the item, including, but not limited to, claims or liabilities
+> made for injury to or death of personnel of User or third parties,
+> damage to or destruction of property of User or third parties, and
+> infringement or other violations of intellectual property or technical
+> data rights.
+>
+> Nothing in this Work is intended to constitute an endorsement, explicit
+> or implied, by the US Government of any particular manufacturer's
+> product or service.
 
 Technology components
 ---------------------
@@ -147,18 +154,18 @@ provides:
 Copyrights
 ----------
 
-    All materials are copyright their respective owners unless otherwise
-    noted.
-
-    Per Section 105 of the Copyright Act of 1976, these works are not
-    entitled to domestic copyright protection under US Federal law.
-
-    The US Government retains the right to pursue copyright protections
-    outside of the United States.
-
-    The United States Government has unlimited rights in this software
-    and all derivatives thereof, pursuant to the contracts under which
-    it was developed and the License under which it falls.
+> All materials are copyright their respective owners unless otherwise
+> noted.
+>
+> Per Section 105 of the Copyright Act of 1976, these works are not
+> entitled to domestic copyright protection under US Federal law.
+>
+> The US Government retains the right to pursue copyright protections
+> outside of the United States.
+>
+> The United States Government has unlimited rights in this software
+> and all derivatives thereof, pursuant to the contracts under which
+> it was developed and the License under which it falls.
 
 Released under the
 `Apache License, Version 2 <http://www.apache.org/licenses/LICENSE-2.0.html>`__.
@@ -252,12 +259,14 @@ SIMP Provided Materials
 RPMs
 ^^^^
 
-SIMP RPMs can be found in `BinTray <https://bintray.com/simp>`__.
+Release RPMs are now hosted on `PackageCloud <https://packagecloud.io/simp-project>`__
+
+Older RPMs can be found on `BinTray <https://bintray.com/simp>`__
 
 Look for the repository that is associated with the version of SIMP that you
 wish to build. The latest packages can always be found in the '.X'
 repositories. For example, the latest 4 series packages would be found in the
-4.2.X repository.
+4.X repository.
 
 Please make sure that the RPMs are properly signed with the GPG key
 listed below.
@@ -276,13 +285,20 @@ Build Repositories
 -  `simp-core <https://github.com/simp/simp-core>`__
 -  `simp-doc <https://github.com/simp/simp-doc>`__
 -  `simp-rsync <https://github.com/simp/simp-rsync>`__
+-  `simp-packer <https://github.com/simp/simp-packer>`__
 
 Helper Rubygems
 ^^^^^^^^^^^^^^^
 
 -  `rubygem-simp-beaker-helpers <https://github.com/simp/rubygem-simp-beaker-helpers>`__
+-  `rubygem-simp-build-helpers <https://github.com/simp/rubygem-simp-build-helpers>`__
 -  `rubygem-simp-cli <https://github.com/simp/rubygem-simp-cli>`__
+-  `rubygem-simp-module-repoclosure <https://github.com/simp/rubygem-simp-module-repoclosure>`__
+-  `rubygem-simp-processgraph <https://github.com/simp/rubygem-simp-processgraph>`__
 -  `rubygem-simp-rake-helpers <https://github.com/simp/rubygem-simp-rake-helpers>`__
+-  `rubygem-simp-release-tools <https://github.com/simp/rubygem-simp-release-tools>`__
+-  `rubygem-simp-rspec-puppet-facts <https://github.com/simp/rubygem-simp-rspec-puppet-facts>`__
+-  `rubygem-simp-spec-helpers <https://github.com/simp/rubygem-simp-spec-helpers>`__
 
 Puppet Module Skeleton
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -307,9 +323,8 @@ SIMP Repositories
 -  `pupmod-simp-clamav <https://github.com/simp/pupmod-simp-clamav>`__
 -  `pupmod-simp-common <https://github.com/simp/pupmod-simp-common>`__
 -  `pupmod-simp-compliance_markup <https://github.com/simp/pupmod-simp-compliance_markup>`__
--  `pupmod-simp-concat <https://github.com/simp/pupmod-simp-concat>`__
 -  `pupmod-simp-dhcp <https://github.com/simp/pupmod-simp-dhcp>`__
--  `pupmod-simp-elasticsearch <https://github.com/simp/pupmod-simp-elasticsearch>`__
+-  `pupmod-simp-elasticsearch-obsolete <https://github.com/simp/pupmod-simp-elasticsearch-obsolete>`__
 -  `pupmod-simp-etcd <https://github.com/simp/pupmod-simp-etcd>`__
 -  `pupmod-simp-foreman <https://github.com/simp/pupmod-simp-foreman>`__
 -  `pupmod-simp-freeradius <https://github.com/simp/pupmod-simp-freeradius>`__
@@ -320,9 +335,10 @@ SIMP Repositories
 -  `pupmod-simp-jenkins <https://github.com/simp/pupmod-simp-jenkins>`__
 -  `pupmod-simp-kibana <https://github.com/simp/pupmod-simp-kibana>`__
 -  `pupmod-simp-krb5 <https://github.com/simp/pupmod-simp-krb5>`__
+-  `pupmod-simp-libreswan <https://github.com/simp/pupmod-simp-libreswan>`__
 -  `pupmod-simp-libvirt <https://github.com/simp/pupmod-simp-libvirt>`__
 -  `pupmod-simp-logrotate <https://github.com/simp/pupmod-simp-logrotate>`__
--  `pupmod-simp-logstash <https://github.com/simp/pupmod-simp-logstash>`__
+-  `pupmod-simp-logstash-obsolete <https://github.com/simp/pupmod-simp-logstash-obsolete>`__
 -  `pupmod-simp-mcafee <https://github.com/simp/pupmod-simp-mcafee>`__
 -  `pupmod-simp-mcollective <https://github.com/simp/pupmod-simp-mcollective>`__
 -  `pupmod-simp-mozilla <https://github.com/simp/pupmod-simp-mozilla>`__
@@ -346,6 +362,10 @@ SIMP Repositories
 -  `pupmod-simp-selinux <https://github.com/simp/pupmod-simp-selinux>`__
 -  `pupmod-simp-shinken <https://github.com/simp/pupmod-simp-shinken>`__
 -  `pupmod-simp-simp <https://github.com/simp/pupmod-simp-simp>`__
+-  `pupmod-simp-simp_elasticsearch <https://github.com/simp/pupmod-simp-simp_elasticsearch>`__
+-  `pupmod-simp-simp_grafana <https://github.com/simp/pupmod-simp-simp_grafana>`__
+-  `pupmod-simp-simp_logstash <https://github.com/simp/pupmod-simp-simp_logstash>`__
+-  `pupmod-simp-simpcat <https://github.com/simp/pupmod-simp-simpcat>`__
 -  `pupmod-simp-simplib <https://github.com/simp/pupmod-simp-simplib>`__
 -  `pupmod-simp-site <https://github.com/simp/pupmod-simp-site>`__
 -  `pupmod-simp-snmpd <https://github.com/simp/pupmod-simp-snmpd>`__
@@ -367,16 +387,6 @@ SIMP Repositories
 -  `pupmod-simp-xwindows <https://github.com/simp/pupmod-simp-xwindows>`__
 -  `puppet-gpasswd <https://github.com/simp/puppet-gpasswd>`__
 -  `puppet-module-skeleton <https://github.com/simp/puppet-module-skeleton>`__
--  `rubygem-simp-beaker-helpers <https://github.com/simp/rubygem-simp-beaker-helpers>`__
--  `rubygem-simp-build-helpers <https://github.com/simp/rubygem-simp-build-helpers>`__
--  `rubygem-simp-cli <https://github.com/simp/rubygem-simp-cli>`__
--  `rubygem-simp-processgraph <https://github.com/simp/rubygem-simp-processgraph>`__
--  `rubygem-simp-rake-helpers <https://github.com/simp/rubygem-simp-rake-helpers>`__
--  `rubygem-simp-rspec-puppet-facts <https://github.com/simp/rubygem-simp-rspec-puppet-facts>`__
--  `rubygem-simp-spec-helpers <https://github.com/simp/rubygem-simp-spec-helpers>`__
--  `simp-core <https://github.com/simp/simp-core>`__
--  `simp-doc <https://github.com/simp/simp-doc>`__
--  `simp-rsync <https://github.com/simp/simp-rsync>`__
 
 Forked Repositories
 ^^^^^^^^^^^^^^^^^^^
@@ -394,9 +404,11 @@ Forked Repositories
 -  `augeasproviders_shellvar <https://github.com/simp/augeasproviders_shellvar>`__
 -  `augeasproviders_ssh <https://github.com/simp/augeasproviders_ssh>`__
 -  `augeasproviders_sysctl <https://github.com/simp/augeasproviders_sysctl>`__
--  `librarian-puppet <https://github.com/simp/librarian-puppet>`__
 -  `puppet-datacat <https://github.com/simp/puppet-datacat>`__
 -  `puppet-elasticsearch <https://github.com/simp/puppet-elasticsearch>`__
+-  `puppet-grafana <https://github.com/simp/puppet-grafana>`__
+-  `puppet-haveged <https://github.com/simp/puppet-haveged>`__
+-  `puppet-lib-file_concat <https://github.com/simp/puppet-lib-file_concat>`__
 -  `puppet-logstash <https://github.com/simp/puppet-logstash>`__
 -  `puppet-memcached <https://github.com/simp/puppet-memcached>`__
 -  `puppetlabs-apache <https://github.com/simp/puppetlabs-apache>`__
