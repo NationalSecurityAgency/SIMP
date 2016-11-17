@@ -42,11 +42,11 @@ Latest Releases
 
 ----------------------------------------
 
-> **NOTE**
->
-> Release artifacts are now hosted on `PackageCloud <https://packagecloud.io/simp-project>`__
->
-> Older releases can be found on `BinTray <https://bintray.com/simp>`__
+  **NOTE**
+ 
+  Release artifacts are now hosted on `PackageCloud <https://packagecloud.io/simp-project>`__
+ 
+  Older releases can be found on `BinTray <https://bintray.com/simp>`__
 
 ----------------------------------------
 
@@ -100,30 +100,30 @@ licenses as applicable.
 Disclaimer
 ~~~~~~~~~~
 
-> This Work is provided "as is." Any express or implied warranties,
-> including but not limited to, the implied warranties of merchantability
-> and fitness for a particular purpose are disclaimed. In no event shall
-> the United States Government be liable for any direct, indirect,
-> incidental, special, exemplary or consequential damages (including, but
-> not limited to, procurement of substitute goods or services, loss of
-> use, data or profits, or business interruption) however caused and on
-> any theory of liability, whether in contract, strict liability, or tort
-> (including negligence or otherwise) arising in any way out of the use of
-> this Guidance, even if advised of the possibility of such damage.
->
-> The User of this Work agrees to hold harmless and indemnify the United
-> States Government, its agents, and employees from every claim or
-> liability (whether in tort or in contract), including attorneys' fees,
-> court costs, and expenses, arising in direct consequence of Recipient's
-> use of the item, including, but not limited to, claims or liabilities
-> made for injury to or death of personnel of User or third parties,
-> damage to or destruction of property of User or third parties, and
-> infringement or other violations of intellectual property or technical
-> data rights.
->
-> Nothing in this Work is intended to constitute an endorsement, explicit
-> or implied, by the US Government of any particular manufacturer's
-> product or service.
+  This Work is provided "as is." Any express or implied warranties,
+  including but not limited to, the implied warranties of merchantability
+  and fitness for a particular purpose are disclaimed. In no event shall
+  the United States Government be liable for any direct, indirect,
+  incidental, special, exemplary or consequential damages (including, but
+  not limited to, procurement of substitute goods or services, loss of
+  use, data or profits, or business interruption) however caused and on
+  any theory of liability, whether in contract, strict liability, or tort
+  (including negligence or otherwise) arising in any way out of the use of
+  this Guidance, even if advised of the possibility of such damage.
+ 
+  The User of this Work agrees to hold harmless and indemnify the United
+  States Government, its agents, and employees from every claim or
+  liability (whether in tort or in contract), including attorneys' fees,
+  court costs, and expenses, arising in direct consequence of Recipient's
+  use of the item, including, but not limited to, claims or liabilities
+  made for injury to or death of personnel of User or third parties,
+  damage to or destruction of property of User or third parties, and
+  infringement or other violations of intellectual property or technical
+  data rights.
+ 
+  Nothing in this Work is intended to constitute an endorsement, explicit
+  or implied, by the US Government of any particular manufacturer's
+  product or service.
 
 Technology components
 ---------------------
@@ -154,18 +154,18 @@ provides:
 Copyrights
 ----------
 
-> All materials are copyright their respective owners unless otherwise
-> noted.
->
-> Per Section 105 of the Copyright Act of 1976, these works are not
-> entitled to domestic copyright protection under US Federal law.
->
-> The US Government retains the right to pursue copyright protections
-> outside of the United States.
->
-> The United States Government has unlimited rights in this software
-> and all derivatives thereof, pursuant to the contracts under which
-> it was developed and the License under which it falls.
+  All materials are copyright their respective owners unless otherwise
+  noted.
+ 
+  Per Section 105 of the Copyright Act of 1976, these works are not
+  entitled to domestic copyright protection under US Federal law.
+ 
+  The US Government retains the right to pursue copyright protections
+  outside of the United States.
+ 
+  The United States Government has unlimited rights in this software
+  and all derivatives thereof, pursuant to the contracts under which
+  it was developed and the License under which it falls.
 
 Released under the
 `Apache License, Version 2 <http://www.apache.org/licenses/LICENSE-2.0.html>`__.
