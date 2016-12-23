@@ -21,21 +21,18 @@ Existing System Migration
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are looking to use the SIMP materials on an existing system,
-instructions are available on the
-`SIMP Confluence <https://simp-project.atlassian.net/wiki/display/SD/Installing+SIMP+on+an+existing+system>`__.
+instructions are available in the `SIMP Documentation`_.
 
 New System/Bare Metal
 ~~~~~~~~~~~~~~~~~~~~~
 
 If you're using a new system, such as a fresh VM or a bare metal system,
-you will want to follow the
-`instructions for building an ISO <https://simp-project.atlassian.net/wiki/display/SD/Compiling+the+SIMP+Tarball+and+ISO>`__.
+you will want to follow the `instructions for building an ISO`.
 
 User Documentation
 ------------------
 
-Product documentation is housed at
-`ReadTheDocs.org <http://simp.readthedocs.org/en/latest/>`__.
+Product documentation is housed at `ReadTheDocs.org`_.
 
 Latest Releases
 ---------------
@@ -43,39 +40,58 @@ Latest Releases
 ----------------------------------------
 
   **NOTE**
- 
-  Release artifacts are now hosted on `PackageCloud <https://packagecloud.io/simp-project>`__
- 
-  Older releases can be found on `BinTray <https://bintray.com/simp>`__
+
+  Release packages are now hosted on `PackageCloud`_
+
+  Release Tarballs and ISOs (`CentOS`_ powered) can be found at https://simp-project.com/ISO
+
+  There is also a `RPM archive`_ now availble.
+
+  Older releases can be found on `BinTray`_
 
 ----------------------------------------
 
--  `5.2.0-0 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.2.0-0>`__
+- `6.0.0-Alpha <https://github.com/NationalSecurityAgency/SIMP/releases/tag/6.0.0-Alpha>`__
 
-   -  `Red Hat Enterprise Linux <http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__
+  - `Red Hat Enterprise Linux`_
 
-      -  7.2 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-5.2.0-0.tar.gz>`__)
+    - RHEL 7.2 (`download <https://simp-project.com/ISO/SIMP/tar_bundles/SIMP-6.0.0-Alpha-Overlay-EL-7-x86_64.tar.gz>`__)
 
-   -  `CentOS <https://www.centos.org/>`__
+  - `CentOS`_
 
-      -  7.2-1511 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-5.2.0-0.tar.gz>`__)
+    - 7.2-1511 (`download <https://simp-project.com/ISO/SIMP/tar_bundles/SIMP-6.0.0-Alpha-Overlay-EL-7-x86_64.tar.gz>`__)
 
--  `4.3.0-0 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.3.0-0>`__
+    - ISO (`download <https://simp-project.com/ISO/SIMP/SIMP-6.0.0-Alpha-Powered_by_CentOS-7.0-x86_64.iso>`__)
 
-   -  `Red Hat Enterprise Linux <http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__
+- `5.2.1-0 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.2.1-0>`__
 
-      -  6.8 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-RHEL-4.3.0-0.tar.gz>`__)
+  - `Red Hat Enterprise Linux`_
 
-   -  `CentOS <https://www.centos.org/>`__
+    - RHEL 7.2 (`download <https://simp-project.com/ISO/SIMP/tar_bundles/SIMP-DVD-Overlay-5.2.1-0.tar.gz>`__)
 
-      -  6.8 (`download <https://bintray.com/artifact/download/simp/Releases/SIMP-DVD-CentOS-4.3.0-0.tar.gz>`__)
+  - `CentOS`_
+
+    - 7.2-1511 (`download <https://simp-project.com/ISO/SIMP/tar_bundles/SIMP-DVD-Overlay-5.2.1-0.tar.gz>`__)
+
+    - ISO (`download <https://simp-project.com/ISO/SIMP/SIMP-5.2.1-0-Powered_by_CentOS-7.0-x86_64.iso>`__)
+
+- `4.3.1-0 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/4.3.1-0>`__
+
+  - `Red Hat Enterprise Linux`_
+
+    - 6.8 (`download <https://simp-project.com/ISO/SIMP/tar_bundles/SIMP-DVD-Overlay-4.3.1-0.tar.gz>`__)
+
+  - `CentOS <https://www.centos.org/>`__
+
+    - 6.8 (`download <https://simp-project.com/ISO/SIMP/tar_bundles/SIMP-DVD-Overlay-4.3.1-0.tar.gz>`__)
+
+    - ISO (`download <https://simp-project.com/ISO/SIMP/SIMP-4.3.1-0-Powered_by_CentOS-6.8-x86_64.iso>`__)
 
 Where's the code?!
 ==================
 
-For those out there that just want the goods, the actual code for the
-SIMP project is hosted under the
-`SIMP GitHub Organization <https://github.com/simp/simp-core>`__.
+For those out there that just want the goods, the actual code for the SIMP
+project is hosted under the `SIMP GitHub Organization`_.
 
 Description
 -----------
@@ -83,19 +99,16 @@ Description
 SIMP is a framework that provides a flexible combination of security
 compliance and operational automation.
 
-The goal of the project is to provide a complete management environment
-focused on compliance with the various profiles in the
-`SCAP Security Guide Project <https://fedorahosted.org/scap-security-guide/>`__
-and industry best practice.
+The goal of the project is to provide a complete management environment focused
+on compliance with the various profiles in the `SCAP Security Guide`_ and
+industry best practice.
 
-Though it is fully capable out of the box, the intent of SIMP is to be
-molded to your target environment in such a way that deviations are
-easily identifiable to both Operations Teams and Security Officers.
+Though it is fully capable out of the box, the intent of SIMP is to be molded
+to your target environment in such a way that deviations are easily
+identifiable to both Operations Teams and Security Officers.
 
-At this time, there are no commercial requirements for the use of SIMP
-outside of the purchase of
-`Red Hat Enterprise Linux <http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__
-licenses as applicable.
+At this time, there are no commercial requirements for the use of SIMP outside
+of the purchase of `Red Hat Enterprise Linux`_ licenses as applicable.
 
 Disclaimer
 ~~~~~~~~~~
@@ -110,7 +123,7 @@ Disclaimer
   any theory of liability, whether in contract, strict liability, or tort
   (including negligence or otherwise) arising in any way out of the use of
   this Guidance, even if advised of the possibility of such damage.
- 
+
   The User of this Work agrees to hold harmless and indemnify the United
   States Government, its agents, and employees from every claim or
   liability (whether in tort or in contract), including attorneys' fees,
@@ -120,7 +133,7 @@ Disclaimer
   damage to or destruction of property of User or third parties, and
   infringement or other violations of intellectual property or technical
   data rights.
- 
+
   Nothing in this Work is intended to constitute an endorsement, explicit
   or implied, by the US Government of any particular manufacturer's
   product or service.
@@ -128,11 +141,10 @@ Disclaimer
 Technology components
 ---------------------
 
-SIMP uses Puppet to manage and maintain the configuration of the various
+SIMP uses `Puppet`_ to manage and maintain the configuration of the various
 component systems.
 
-Though there are many possible configurations, out of the box SIMP
-provides:
+Though there are many possible configurations, out of the box SIMP provides:
 
 -  Management
 
@@ -151,24 +163,26 @@ provides:
    -  DHCP
    -  TFTP
 
+Please see the `SIMP Documentation`_ for a more in-depth look at the SIMP
+software stack.
+
 Copyrights
 ----------
 
   All materials are copyright their respective owners unless otherwise
   noted.
- 
-  Per Section 105 of the Copyright Act of 1976, these works are not
+
+  Per `Section 105 of the Copyright Act of 1976`_, these works are not
   entitled to domestic copyright protection under US Federal law.
- 
+
   The US Government retains the right to pursue copyright protections
   outside of the United States.
- 
+
   The United States Government has unlimited rights in this software
   and all derivatives thereof, pursuant to the contracts under which
   it was developed and the License under which it falls.
 
-Released under the
-`Apache License, Version 2 <http://www.apache.org/licenses/LICENSE-2.0.html>`__.
+Released under the `Apache License, Version 2`_.
 
 Community
 ---------
@@ -176,7 +190,7 @@ Community
 Issue Tracker
 ~~~~~~~~~~~~~
 
-`SIMP Project JIRA <https://simp-project.atlassian.net>`__
+`SIMP Project JIRA`_
 
 -  Feel free to sign up for an account here to file bugs, help track
    issues, or vote for your favorite feature.
@@ -189,37 +203,24 @@ Chat Room
 Development Chat
 ^^^^^^^^^^^^^^^^
 
-`SIMP Project HipChat <https://www.hipchat.com/ggkCeNuLk>`__ => **No
-account required for this room**
+`SIMP Project HipChat`_ => **No account required for this room**
 
 -  It is **highly** suggested that you either use a non-primary e-mail
-   for this or that you use an e-mail modifier such as (+simp).
--  When signing up for a new account, use *simp-project* as the team
+   for this or that you use an e-mail modifier such as ``+simp``.
+-  When signing up for a new account, use ``simp-project`` as the team
    name.
 
-Code Review System
-~~~~~~~~~~~~~~~~~~
+Code Review
+~~~~~~~~~~~
 
-The SIMP Project is using `GerritHub <https://gerrithub.io>`__ for code
-review activities.
+The SIMP Project has moved away from GerritHub and is now using native GitHub for code reviews.
 
 Dashboards
 ^^^^^^^^^^
 
--  `Open
-   Changes <https://review.gerrithub.io/#/dashboard/?title=SIMP+Open+Changes&project=^simp+-is:abandoned+-is:merged>`__
--  `Fully Reviewed
-   Changes <https://review.gerrithub.io/#/dashboard/?title=SIMP+Fully+Reviewed+Changes&project=^simp+-is:abandoned+label:Code-Review+2+label:Verified+1>`__
--  `Failing
-   Changes <https://review.gerrithub.io/#/dashboard/?title=SIMP+Failing+Changes&project=^simp+-is:abandoned+(label:Code-Review-1+OR+label:Verified-1)>`__
--  `Open Mergeable
-   Changes <https://review.gerrithub.io/#/dashboard/?title=SIMP+Open+Mergeable+Changes&project=^simp+is:mergeable+-is:abandoned>`__
--  `Pending
-   Changes <https://review.gerrithub.io/#/dashboard/?title=SIMP+Pending+Changes&project=^simp+status:pending+-is:abandoned>`__
--  `Submitted
-   Changes <https://review.gerrithub.io/#/dashboard/?title=SIMP+Submitted+Changes&project=^simp+status:submitted+-is:abandoned>`__
--  `Merged
-   Changes <https://review.gerrithub.io/#/q/is:merged+project:^simp/.*>`__
+- `Open Changes`_
+- `Closed but Unmerged`_
+- `Failing Checks`_
 
 Google Groups
 ~~~~~~~~~~~~~
@@ -239,19 +240,19 @@ Google Groups
    the SIMP team.
 
 Prior to joining a mailing list, please review our `Community Code of
-Conduct <Community_Code_of_Conduct.md>`__.
+Conduct`_.
 
 Contributions
 ~~~~~~~~~~~~~
 
-Please see `CONTRIBUTING <CONTRIBUTING.md>`__ for information on how to
-contribute to this project.
+Please see `CONTRIBUTING`_ for information on how to contribute to this
+project.
 
 Component Repositories
 ----------------------
 
-Last, but not least, this is the list of all SIMP component modules as
-hosted under the `SIMP <https://github.com/simp>`__ project space.
+Last, but not least, this is the list of all SIMP component modules as hosted
+under the `SIMP Project`_.
 
 SIMP Provided Materials
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -259,14 +260,14 @@ SIMP Provided Materials
 RPMs
 ^^^^
 
-Release RPMs are now hosted on `PackageCloud <https://packagecloud.io/simp-project>`__
+Release RPMs are now hosted on `PackageCloud`_.
 
-Older RPMs can be found on `BinTray <https://bintray.com/simp>`__
+Older RPMs can be found on `BinTray`_.
 
 Look for the repository that is associated with the version of SIMP that you
-wish to build. The latest packages can always be found in the '.X'
+wish to build. The latest packages can always be found in the ``.X``
 repositories. For example, the latest 4 series packages would be found in the
-4.X repository.
+``4.X`` repository.
 
 Please make sure that the RPMs are properly signed with the GPG key
 listed below.
@@ -274,10 +275,9 @@ listed below.
 GPG Signing Key
 ^^^^^^^^^^^^^^^
 
-All officially released RPMs are signed with the `SIMP Release
-Key <https://github.com/NationalSecurityAgency/SIMP/blob/master/GPGKEYS/RPM-GPG-KEY-SIMP>`__
-\* ID: 7DA6F216 \* Fingerprint: 103B 439D ADF4 AE61 FA69 98AF EE8C 77AF
-7DA6 F216
+All officially released RPMs are signed with the `SIMP Release Key`_
+
+\* ID: 7DA6F216 \* Fingerprint: 103B 439D ADF4 AE61 FA69 98AF EE8C 77AF 7DA6 F216
 
 Build Repositories
 ^^^^^^^^^^^^^^^^^^
@@ -419,3 +419,26 @@ Forked Repositories
 -  `puppetlabs-postgresql <https://github.com/simp/puppetlabs-postgresql>`__
 -  `puppetlabs-puppetdb <https://github.com/simp/puppetlabs-puppetdb>`__
 -  `puppetlabs-stdlib <https://github.com/simp/puppetlabs-stdlib>`__
+
+.. _Apache License, Version 2: http://www.apache.org/licenses/LICENSE-2.0.html
+.. _BinTray: https://bintray.com/simp
+.. _CONTRIBUTING: CONTRIBUTING.md
+.. _CentOS: https://www.centos.org
+.. _Closed but Unmerged: https://github.com/search?o=desc&q=org%3Asimp+is%3Apr+is%3Aclosed+is%3Aunmerged&ref=searchresults&s=updated&type=Issues&utf8=%E2%9C%93
+.. _Community Code of Conduct: Community_Code_of_Conduct.md
+.. _Failing Checks: https://github.com/search?o=desc&q=org%3Asimp+is%3Apr+is%3Aopen+status%3Afailure&ref=searchresults&s=updated&type=Issues&utf8=%E2%9C%93
+.. _Open Changes: https://github.com/search?o=desc&q=org%3Asimp+is%3Apr+is%3Aopen&ref=searchresults&s=updated&type=Issues&utf8=%E2%9C%93
+.. _PackageCloud: https://packagecloud.io/simp-project
+.. _Puppet: https://puppet.com
+.. _RPM archive: https://simp-project.com/yum/SIMP
+.. _ReadTheDocs.org: https://simp.readthedocs.io/en/latest
+.. _Red Hat Enterprise Linux: http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
+.. _SCAP Security Guide: http://www.open-scap.org/security-policies/scap-security-guide
+.. _SIMP Documentation: http://simp.readthedocs.io/en/5.2.1-0/getting_started_guide/Installing_SIMP_From_A_Repository.html
+.. _SIMP GitHub Organization: https://github.com/simp/simp-core
+.. _SIMP Project HipChat: https://www.hipchat.com/ggkCeNuLk
+.. _SIMP Project JIRA: https://simp-project.atlassian.net
+.. _SIMP Project: https://github.com/simp
+.. _SIMP Release Key: https://github.com/NationalSecurityAgency/SIMP/blob/master/GPGKEYS/RPM-GPG-KEY-SIMP
+.. _Section 105 of the Copyright Act of 1976: https://www.copyright.gov/title17/92chap1.html#105
+.. _instructions for building an ISO: http://simp.readthedocs.io/en/5.2.1-0/getting_started_guide/ISO_Build/Building_SIMP_From_Tarball.html
