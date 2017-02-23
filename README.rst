@@ -51,17 +51,20 @@ Latest Releases
 
 ----------------------------------------
 
-- `6.0.0-Alpha <https://github.com/NationalSecurityAgency/SIMP/releases/tag/6.0.0-Alpha>`__
+- `6.0.0-Beta <https://github.com/NationalSecurityAgency/SIMP/releases/tag/6.0.0-Beta>`__
 
   - `Red Hat Enterprise Linux`_
 
-    - RHEL 7.2 (`download <https://simp-project.com/ISO/SIMP/tar_bundles/SIMP-6.0.0-Alpha-Overlay-EL-7-x86_64.tar.gz>`__)
+    - RHEL 7.3 (`download <http://simp-project.com/ISO/SIMP/tar_bundles/SIMP-6.0.0-Beta-EL-7-x86_64.tar.gz>`__)
+    - RHEL 6.8 (`download <http://simp-project.com/ISO/SIMP/tar_bundles/SIMP-6.0.0-Beta-EL-6-x86_64.tar.gz>`__)
 
   - `CentOS`_
 
-    - 7.2-1511 (`download <https://simp-project.com/ISO/SIMP/tar_bundles/SIMP-6.0.0-Alpha-Overlay-EL-7-x86_64.tar.gz>`__)
+    - 7.3-1611 (`download <http://simp-project.com/ISO/SIMP/tar_bundles/SIMP-6.0.0-Beta-EL-7-x86_64.tar.gz>`__)
+    - 6.8 (`download <http://simp-project.com/ISO/SIMP/tar_bundles/SIMP-6.0.0-Beta-EL-6-x86_64.tar.gz>`__)
 
-    - ISO (`download <https://simp-project.com/ISO/SIMP/SIMP-6.0.0-Alpha-Powered_by_CentOS-7.0-x86_64.iso>`__)
+    - EL7 ISO (`download <http://simp-project.com/ISO/SIMP/SIMP-6.0.0-Beta-Powered-By-CentOS-7.0-x86_64.iso>`__)
+    - EL6 ISO (`download <http://simp-project.com/ISO/SIMP/SIMP-6.0.0-Beta-Powered-By-CentOS-6.8-x86_64.iso>`__)
 
 - `5.2.1-0 <https://github.com/NationalSecurityAgency/SIMP/releases/tag/5.2.1-0>`__
 
