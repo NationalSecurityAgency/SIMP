@@ -67,6 +67,8 @@ monitoring_repos = {}
 simp_repos = {}
 external_repos = {}
 
+image_links = []
+
 repos.each do |repo|
   if simp_build_src_repos.include?(repo[:name])
     build_repos[repo[:name]] = {
@@ -93,7 +95,14 @@ repos.each do |repo|
     res = req.request_head(url.path)
 
     if res.code_type == Net::HTTPOK
-      rubygem_repos[repo[:name]][:gem_badge] = %{[![Gem_Downloads](https://img.shields.io/gem/dt/#{short_name}.svg)](#{url})}
+      image_links << <<-HERE
+.. _Gem_#{short_name}: https://img.shields.io/gem/dt/#{short_name}.svg
+   :target: #{url}
+   :alt: Gem_Downloads
+      HERE
+
+      rubygem_repos[repo[:name]][:gem_badge] = %{|Gem_#{short_name}|_}
+
       rubygem_repos[repo[:name]][:url_string] << ' ' + rubygem_repos[repo[:name]][:gem_badge]
     end
   elsif repo[:name] =~ /^(#{inspec_src_repos.join('|')})/
@@ -121,7 +130,14 @@ repos.each do |repo|
     res = req.request_head(url.path)
 
     if res.code_type == Net::HTTPOK
-      simp_repos[repo[:name]][:forge_badge] = %{[![Puppet Forge Downloads](https://img.shields.io/puppetforge/dt/simp/#{short_name}.svg)](#{url})}
+      image_links << <<-HERE
+.. _Puppet_Forge_#{short_name}: https://img.shields.io/puppetforge/dt/simp/#{short_name}.svg
+   :target: #{url}
+   :alt: Puppet Forge Downloads
+      HERE
+
+      simp_repos[repo[:name]][:forge_badge] = %{|Puppet_Forge_#{short_name}|_}
+
       simp_repos[repo[:name]][:url_string] << ' ' + simp_repos[repo[:name]][:forge_badge]
     end
   else
@@ -146,7 +162,7 @@ Build Repositories
 #{build_repos.keys.sort.map{|repo| build_repos[repo][:url_string] }.join("\n") if build_repos}
 
 Skeleton Repositories
-~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""
 
 The SIMP project has skeleton repositories to help users get up and running
 quickly with the expected layout and testing framework for SIMP artifacts.
@@ -181,4 +197,6 @@ Forked Repositories
 ^^^^^^^^^^^^^^^^^^^
 
 #{external_repos.keys.sort.map{|repo| external_repos[repo][:url_string] }.join("\n") if external_repos}
+
+#{image_links.join("\n")}
 EOM
