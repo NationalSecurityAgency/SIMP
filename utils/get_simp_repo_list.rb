@@ -96,9 +96,8 @@ repos.each do |repo|
 
     if res.code_type == Net::HTTPOK
       image_links << <<-HERE
-.. _Gem_#{short_name}: https://img.shields.io/gem/dt/#{short_name}.svg
-   :target: #{url}
-   :alt: Gem_Downloads
+.. |Gem_#{short_name}| image:: https://img.shields.io/gem/dt/#{short_name}.svg
+.. _Gem_#{short_name}: #{url}
       HERE
 
       rubygem_repos[repo[:name]][:gem_badge] = %{|Gem_#{short_name}|_}
@@ -131,9 +130,8 @@ repos.each do |repo|
 
     if res.code_type == Net::HTTPOK
       image_links << <<-HERE
-.. _Puppet_Forge_#{short_name}: https://img.shields.io/puppetforge/dt/simp/#{short_name}.svg
-   :target: #{url}
-   :alt: Puppet Forge Downloads
+.. |Puppet_Forge_#{short_name}| image:: https://img.shields.io/puppetforge/dt/simp/#{short_name}.svg
+.. _Puppet_Forge_#{short_name}: #{url}
       HERE
 
       simp_repos[repo[:name]][:forge_badge] = %{|Puppet_Forge_#{short_name}|_}
@@ -198,5 +196,5 @@ Forked Repositories
 
 #{external_repos.keys.sort.map{|repo| external_repos[repo][:url_string] }.join("\n") if external_repos}
 
-#{image_links.join("\n")}
+#{image_links.join}
 EOM

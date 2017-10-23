@@ -332,341 +332,174 @@ Forked Repositories
 -  `puppetlabs-stdlib <https://github.com/simp/puppetlabs-stdlib>`__
 -  `voxpupuli-yum <https://github.com/simp/voxpupuli-yum>`__
 
-.. _Puppet_Forge_acpid: https://img.shields.io/puppetforge/dt/simp/acpid.svg
-   :target: https://forge.puppet.com/simp/acpid
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_activemq: https://img.shields.io/puppetforge/dt/simp/activemq.svg
-   :target: https://forge.puppet.com/simp/activemq
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_aide: https://img.shields.io/puppetforge/dt/simp/aide.svg
-   :target: https://forge.puppet.com/simp/aide
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simp_apache: https://img.shields.io/puppetforge/dt/simp/simp_apache.svg
-   :target: https://forge.puppet.com/simp/simp_apache
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_auditd: https://img.shields.io/puppetforge/dt/simp/auditd.svg
-   :target: https://forge.puppet.com/simp/auditd
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_autofs: https://img.shields.io/puppetforge/dt/simp/autofs.svg
-   :target: https://forge.puppet.com/simp/autofs
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_clamav: https://img.shields.io/puppetforge/dt/simp/clamav.svg
-   :target: https://forge.puppet.com/simp/clamav
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simpcat: https://img.shields.io/puppetforge/dt/simp/simpcat.svg
-   :target: https://forge.puppet.com/simp/simpcat
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_dhcp: https://img.shields.io/puppetforge/dt/simp/dhcp.svg
-   :target: https://forge.puppet.com/simp/dhcp
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_freeradius: https://img.shields.io/puppetforge/dt/simp/freeradius.svg
-   :target: https://forge.puppet.com/simp/freeradius
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_ganglia: https://img.shields.io/puppetforge/dt/simp/ganglia.svg
-   :target: https://forge.puppet.com/simp/ganglia
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_iptables: https://img.shields.io/puppetforge/dt/simp/iptables.svg
-   :target: https://forge.puppet.com/simp/iptables
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_jenkins: https://img.shields.io/puppetforge/dt/simp/jenkins.svg
-   :target: https://forge.puppet.com/simp/jenkins
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_krb5: https://img.shields.io/puppetforge/dt/simp/krb5.svg
-   :target: https://forge.puppet.com/simp/krb5
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_libvirt: https://img.shields.io/puppetforge/dt/simp/libvirt.svg
-   :target: https://forge.puppet.com/simp/libvirt
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_logrotate: https://img.shields.io/puppetforge/dt/simp/logrotate.svg
-   :target: https://forge.puppet.com/simp/logrotate
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_mcafee: https://img.shields.io/puppetforge/dt/simp/mcafee.svg
-   :target: https://forge.puppet.com/simp/mcafee
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_mcollective: https://img.shields.io/puppetforge/dt/simp/mcollective.svg
-   :target: https://forge.puppet.com/simp/mcollective
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_mozilla: https://img.shields.io/puppetforge/dt/simp/mozilla.svg
-   :target: https://forge.puppet.com/simp/mozilla
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_named: https://img.shields.io/puppetforge/dt/simp/named.svg
-   :target: https://forge.puppet.com/simp/named
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_network: https://img.shields.io/puppetforge/dt/simp/network.svg
-   :target: https://forge.puppet.com/simp/network
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_nfs: https://img.shields.io/puppetforge/dt/simp/nfs.svg
-   :target: https://forge.puppet.com/simp/nfs
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_nscd: https://img.shields.io/puppetforge/dt/simp/nscd.svg
-   :target: https://forge.puppet.com/simp/nscd
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_ntpd: https://img.shields.io/puppetforge/dt/simp/ntpd.svg
-   :target: https://forge.puppet.com/simp/ntpd
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_oddjob: https://img.shields.io/puppetforge/dt/simp/oddjob.svg
-   :target: https://forge.puppet.com/simp/oddjob
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simp_openldap: https://img.shields.io/puppetforge/dt/simp/simp_openldap.svg
-   :target: https://forge.puppet.com/simp/simp_openldap
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_openscap: https://img.shields.io/puppetforge/dt/simp/openscap.svg
-   :target: https://forge.puppet.com/simp/openscap
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_pam: https://img.shields.io/puppetforge/dt/simp/pam.svg
-   :target: https://forge.puppet.com/simp/pam
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_pki: https://img.shields.io/puppetforge/dt/simp/pki.svg
-   :target: https://forge.puppet.com/simp/pki
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_polkit: https://img.shields.io/puppetforge/dt/simp/polkit.svg
-   :target: https://forge.puppet.com/simp/polkit
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_postfix: https://img.shields.io/puppetforge/dt/simp/postfix.svg
-   :target: https://forge.puppet.com/simp/postfix
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_pupmod: https://img.shields.io/puppetforge/dt/simp/pupmod.svg
-   :target: https://forge.puppet.com/simp/pupmod
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_rsync: https://img.shields.io/puppetforge/dt/simp/rsync.svg
-   :target: https://forge.puppet.com/simp/rsync
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_rsyslog: https://img.shields.io/puppetforge/dt/simp/rsyslog.svg
-   :target: https://forge.puppet.com/simp/rsyslog
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_selinux: https://img.shields.io/puppetforge/dt/simp/selinux.svg
-   :target: https://forge.puppet.com/simp/selinux
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simp: https://img.shields.io/puppetforge/dt/simp/simp.svg
-   :target: https://forge.puppet.com/simp/simp
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_snmpd: https://img.shields.io/puppetforge/dt/simp/snmpd.svg
-   :target: https://forge.puppet.com/simp/snmpd
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_ssh: https://img.shields.io/puppetforge/dt/simp/ssh.svg
-   :target: https://forge.puppet.com/simp/ssh
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_sssd: https://img.shields.io/puppetforge/dt/simp/sssd.svg
-   :target: https://forge.puppet.com/simp/sssd
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_stunnel: https://img.shields.io/puppetforge/dt/simp/stunnel.svg
-   :target: https://forge.puppet.com/simp/stunnel
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_sudo: https://img.shields.io/puppetforge/dt/simp/sudo.svg
-   :target: https://forge.puppet.com/simp/sudo
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_sudosh: https://img.shields.io/puppetforge/dt/simp/sudosh.svg
-   :target: https://forge.puppet.com/simp/sudosh
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_svckill: https://img.shields.io/puppetforge/dt/simp/svckill.svg
-   :target: https://forge.puppet.com/simp/svckill
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_sysctl: https://img.shields.io/puppetforge/dt/simp/sysctl.svg
-   :target: https://forge.puppet.com/simp/sysctl
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_tcpwrappers: https://img.shields.io/puppetforge/dt/simp/tcpwrappers.svg
-   :target: https://forge.puppet.com/simp/tcpwrappers
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_tftpboot: https://img.shields.io/puppetforge/dt/simp/tftpboot.svg
-   :target: https://forge.puppet.com/simp/tftpboot
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_tpm: https://img.shields.io/puppetforge/dt/simp/tpm.svg
-   :target: https://forge.puppet.com/simp/tpm
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_upstart: https://img.shields.io/puppetforge/dt/simp/upstart.svg
-   :target: https://forge.puppet.com/simp/upstart
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_vnc: https://img.shields.io/puppetforge/dt/simp/vnc.svg
-   :target: https://forge.puppet.com/simp/vnc
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_vsftpd: https://img.shields.io/puppetforge/dt/simp/vsftpd.svg
-   :target: https://forge.puppet.com/simp/vsftpd
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_gnome: https://img.shields.io/puppetforge/dt/simp/gnome.svg
-   :target: https://forge.puppet.com/simp/gnome
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_xinetd: https://img.shields.io/puppetforge/dt/simp/xinetd.svg
-   :target: https://forge.puppet.com/simp/xinetd
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_gdm: https://img.shields.io/puppetforge/dt/simp/gdm.svg
-   :target: https://forge.puppet.com/simp/gdm
-   :alt: Puppet Forge Downloads
-
-.. _Gem_simp-rake-helpers: https://img.shields.io/gem/dt/simp-rake-helpers.svg
-   :target: https://rubygems.org/gems/simp-rake-helpers
-   :alt: Gem_Downloads
-
-.. _Gem_simp-cli: https://img.shields.io/gem/dt/simp-cli.svg
-   :target: https://rubygems.org/gems/simp-cli
-   :alt: Gem_Downloads
-
-.. _Puppet_Forge_site: https://img.shields.io/puppetforge/dt/simp/site.svg
-   :target: https://forge.puppet.com/simp/site
-   :alt: Puppet Forge Downloads
-
-.. _Gem_simp-rspec-puppet-facts: https://img.shields.io/gem/dt/simp-rspec-puppet-facts.svg
-   :target: https://rubygems.org/gems/simp-rspec-puppet-facts
-   :alt: Gem_Downloads
-
-.. _Puppet_Forge_foreman: https://img.shields.io/puppetforge/dt/simp/foreman.svg
-   :target: https://forge.puppet.com/simp/foreman
-   :alt: Puppet Forge Downloads
-
-.. _Gem_simp-beaker-helpers: https://img.shields.io/gem/dt/simp-beaker-helpers.svg
-   :target: https://rubygems.org/gems/simp-beaker-helpers
-   :alt: Gem_Downloads
-
-.. _Puppet_Forge_simplib: https://img.shields.io/puppetforge/dt/simp/simplib.svg
-   :target: https://forge.puppet.com/simp/simplib
-   :alt: Puppet Forge Downloads
-
-.. _Gem_simp-build-helpers: https://img.shields.io/gem/dt/simp-build-helpers.svg
-   :target: https://rubygems.org/gems/simp-build-helpers
-   :alt: Gem_Downloads
-
-.. _Puppet_Forge_compliance_markup: https://img.shields.io/puppetforge/dt/simp/compliance_markup.svg
-   :target: https://forge.puppet.com/simp/compliance_markup
-   :alt: Puppet Forge Downloads
-
-.. _Gem_simp-module-repoclosure: https://img.shields.io/gem/dt/simp-module-repoclosure.svg
-   :target: https://rubygems.org/gems/simp-module-repoclosure
-   :alt: Gem_Downloads
-
-.. _Puppet_Forge_libreswan: https://img.shields.io/puppetforge/dt/simp/libreswan.svg
-   :target: https://forge.puppet.com/simp/libreswan
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_haveged: https://img.shields.io/puppetforge/dt/simp/haveged.svg
-   :target: https://forge.puppet.com/simp/haveged
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simp_logstash: https://img.shields.io/puppetforge/dt/simp/simp_logstash.svg
-   :target: https://forge.puppet.com/simp/simp_logstash
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simp_elasticsearch: https://img.shields.io/puppetforge/dt/simp/simp_elasticsearch.svg
-   :target: https://forge.puppet.com/simp/simp_elasticsearch
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simp_grafana: https://img.shields.io/puppetforge/dt/simp/simp_grafana.svg
-   :target: https://forge.puppet.com/simp/simp_grafana
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_dirtycow: https://img.shields.io/puppetforge/dt/simp/dirtycow.svg
-   :target: https://forge.puppet.com/simp/dirtycow
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simp_options: https://img.shields.io/puppetforge/dt/simp/simp_options.svg
-   :target: https://forge.puppet.com/simp/simp_options
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_fips: https://img.shields.io/puppetforge/dt/simp/fips.svg
-   :target: https://forge.puppet.com/simp/fips
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_swap: https://img.shields.io/puppetforge/dt/simp/swap.svg
-   :target: https://forge.puppet.com/simp/swap
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_useradd: https://img.shields.io/puppetforge/dt/simp/useradd.svg
-   :target: https://forge.puppet.com/simp/useradd
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_incron: https://img.shields.io/puppetforge/dt/simp/incron.svg
-   :target: https://forge.puppet.com/simp/incron
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_at: https://img.shields.io/puppetforge/dt/simp/at.svg
-   :target: https://forge.puppet.com/simp/at
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_chkrootkit: https://img.shields.io/puppetforge/dt/simp/chkrootkit.svg
-   :target: https://forge.puppet.com/simp/chkrootkit
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_tuned: https://img.shields.io/puppetforge/dt/simp/tuned.svg
-   :target: https://forge.puppet.com/simp/tuned
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_cron: https://img.shields.io/puppetforge/dt/simp/cron.svg
-   :target: https://forge.puppet.com/simp/cron
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_resolv: https://img.shields.io/puppetforge/dt/simp/resolv.svg
-   :target: https://forge.puppet.com/simp/resolv
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simp_rsyslog: https://img.shields.io/puppetforge/dt/simp/simp_rsyslog.svg
-   :target: https://forge.puppet.com/simp/simp_rsyslog
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_timezone: https://img.shields.io/puppetforge/dt/simp/timezone.svg
-   :target: https://forge.puppet.com/simp/timezone
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_issue: https://img.shields.io/puppetforge/dt/simp/issue.svg
-   :target: https://forge.puppet.com/simp/issue
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simp_nfs: https://img.shields.io/puppetforge/dt/simp/simp_nfs.svg
-   :target: https://forge.puppet.com/simp/simp_nfs
-   :alt: Puppet Forge Downloads
-
-.. _Puppet_Forge_simp_snmpd: https://img.shields.io/puppetforge/dt/simp/simp_snmpd.svg
-   :target: https://forge.puppet.com/simp/simp_snmpd
-   :alt: Puppet Forge Downloads
+.. |Puppet_Forge_acpid| image:: https://img.shields.io/puppetforge/dt/simp/acpid.svg
+.. _Puppet_Forge_acpid: https://forge.puppet.com/simp/acpid
+.. |Puppet_Forge_activemq| image:: https://img.shields.io/puppetforge/dt/simp/activemq.svg
+.. _Puppet_Forge_activemq: https://forge.puppet.com/simp/activemq
+.. |Puppet_Forge_aide| image:: https://img.shields.io/puppetforge/dt/simp/aide.svg
+.. _Puppet_Forge_aide: https://forge.puppet.com/simp/aide
+.. |Puppet_Forge_simp_apache| image:: https://img.shields.io/puppetforge/dt/simp/simp_apache.svg
+.. _Puppet_Forge_simp_apache: https://forge.puppet.com/simp/simp_apache
+.. |Puppet_Forge_auditd| image:: https://img.shields.io/puppetforge/dt/simp/auditd.svg
+.. _Puppet_Forge_auditd: https://forge.puppet.com/simp/auditd
+.. |Puppet_Forge_autofs| image:: https://img.shields.io/puppetforge/dt/simp/autofs.svg
+.. _Puppet_Forge_autofs: https://forge.puppet.com/simp/autofs
+.. |Puppet_Forge_clamav| image:: https://img.shields.io/puppetforge/dt/simp/clamav.svg
+.. _Puppet_Forge_clamav: https://forge.puppet.com/simp/clamav
+.. |Puppet_Forge_simpcat| image:: https://img.shields.io/puppetforge/dt/simp/simpcat.svg
+.. _Puppet_Forge_simpcat: https://forge.puppet.com/simp/simpcat
+.. |Puppet_Forge_dhcp| image:: https://img.shields.io/puppetforge/dt/simp/dhcp.svg
+.. _Puppet_Forge_dhcp: https://forge.puppet.com/simp/dhcp
+.. |Puppet_Forge_freeradius| image:: https://img.shields.io/puppetforge/dt/simp/freeradius.svg
+.. _Puppet_Forge_freeradius: https://forge.puppet.com/simp/freeradius
+.. |Puppet_Forge_ganglia| image:: https://img.shields.io/puppetforge/dt/simp/ganglia.svg
+.. _Puppet_Forge_ganglia: https://forge.puppet.com/simp/ganglia
+.. |Puppet_Forge_iptables| image:: https://img.shields.io/puppetforge/dt/simp/iptables.svg
+.. _Puppet_Forge_iptables: https://forge.puppet.com/simp/iptables
+.. |Puppet_Forge_jenkins| image:: https://img.shields.io/puppetforge/dt/simp/jenkins.svg
+.. _Puppet_Forge_jenkins: https://forge.puppet.com/simp/jenkins
+.. |Puppet_Forge_krb5| image:: https://img.shields.io/puppetforge/dt/simp/krb5.svg
+.. _Puppet_Forge_krb5: https://forge.puppet.com/simp/krb5
+.. |Puppet_Forge_libvirt| image:: https://img.shields.io/puppetforge/dt/simp/libvirt.svg
+.. _Puppet_Forge_libvirt: https://forge.puppet.com/simp/libvirt
+.. |Puppet_Forge_logrotate| image:: https://img.shields.io/puppetforge/dt/simp/logrotate.svg
+.. _Puppet_Forge_logrotate: https://forge.puppet.com/simp/logrotate
+.. |Puppet_Forge_mcafee| image:: https://img.shields.io/puppetforge/dt/simp/mcafee.svg
+.. _Puppet_Forge_mcafee: https://forge.puppet.com/simp/mcafee
+.. |Puppet_Forge_mcollective| image:: https://img.shields.io/puppetforge/dt/simp/mcollective.svg
+.. _Puppet_Forge_mcollective: https://forge.puppet.com/simp/mcollective
+.. |Puppet_Forge_mozilla| image:: https://img.shields.io/puppetforge/dt/simp/mozilla.svg
+.. _Puppet_Forge_mozilla: https://forge.puppet.com/simp/mozilla
+.. |Puppet_Forge_named| image:: https://img.shields.io/puppetforge/dt/simp/named.svg
+.. _Puppet_Forge_named: https://forge.puppet.com/simp/named
+.. |Puppet_Forge_network| image:: https://img.shields.io/puppetforge/dt/simp/network.svg
+.. _Puppet_Forge_network: https://forge.puppet.com/simp/network
+.. |Puppet_Forge_nfs| image:: https://img.shields.io/puppetforge/dt/simp/nfs.svg
+.. _Puppet_Forge_nfs: https://forge.puppet.com/simp/nfs
+.. |Puppet_Forge_nscd| image:: https://img.shields.io/puppetforge/dt/simp/nscd.svg
+.. _Puppet_Forge_nscd: https://forge.puppet.com/simp/nscd
+.. |Puppet_Forge_ntpd| image:: https://img.shields.io/puppetforge/dt/simp/ntpd.svg
+.. _Puppet_Forge_ntpd: https://forge.puppet.com/simp/ntpd
+.. |Puppet_Forge_oddjob| image:: https://img.shields.io/puppetforge/dt/simp/oddjob.svg
+.. _Puppet_Forge_oddjob: https://forge.puppet.com/simp/oddjob
+.. |Puppet_Forge_simp_openldap| image:: https://img.shields.io/puppetforge/dt/simp/simp_openldap.svg
+.. _Puppet_Forge_simp_openldap: https://forge.puppet.com/simp/simp_openldap
+.. |Puppet_Forge_openscap| image:: https://img.shields.io/puppetforge/dt/simp/openscap.svg
+.. _Puppet_Forge_openscap: https://forge.puppet.com/simp/openscap
+.. |Puppet_Forge_pam| image:: https://img.shields.io/puppetforge/dt/simp/pam.svg
+.. _Puppet_Forge_pam: https://forge.puppet.com/simp/pam
+.. |Puppet_Forge_pki| image:: https://img.shields.io/puppetforge/dt/simp/pki.svg
+.. _Puppet_Forge_pki: https://forge.puppet.com/simp/pki
+.. |Puppet_Forge_polkit| image:: https://img.shields.io/puppetforge/dt/simp/polkit.svg
+.. _Puppet_Forge_polkit: https://forge.puppet.com/simp/polkit
+.. |Puppet_Forge_postfix| image:: https://img.shields.io/puppetforge/dt/simp/postfix.svg
+.. _Puppet_Forge_postfix: https://forge.puppet.com/simp/postfix
+.. |Puppet_Forge_pupmod| image:: https://img.shields.io/puppetforge/dt/simp/pupmod.svg
+.. _Puppet_Forge_pupmod: https://forge.puppet.com/simp/pupmod
+.. |Puppet_Forge_rsync| image:: https://img.shields.io/puppetforge/dt/simp/rsync.svg
+.. _Puppet_Forge_rsync: https://forge.puppet.com/simp/rsync
+.. |Puppet_Forge_rsyslog| image:: https://img.shields.io/puppetforge/dt/simp/rsyslog.svg
+.. _Puppet_Forge_rsyslog: https://forge.puppet.com/simp/rsyslog
+.. |Puppet_Forge_selinux| image:: https://img.shields.io/puppetforge/dt/simp/selinux.svg
+.. _Puppet_Forge_selinux: https://forge.puppet.com/simp/selinux
+.. |Puppet_Forge_simp| image:: https://img.shields.io/puppetforge/dt/simp/simp.svg
+.. _Puppet_Forge_simp: https://forge.puppet.com/simp/simp
+.. |Puppet_Forge_snmpd| image:: https://img.shields.io/puppetforge/dt/simp/snmpd.svg
+.. _Puppet_Forge_snmpd: https://forge.puppet.com/simp/snmpd
+.. |Puppet_Forge_ssh| image:: https://img.shields.io/puppetforge/dt/simp/ssh.svg
+.. _Puppet_Forge_ssh: https://forge.puppet.com/simp/ssh
+.. |Puppet_Forge_sssd| image:: https://img.shields.io/puppetforge/dt/simp/sssd.svg
+.. _Puppet_Forge_sssd: https://forge.puppet.com/simp/sssd
+.. |Puppet_Forge_stunnel| image:: https://img.shields.io/puppetforge/dt/simp/stunnel.svg
+.. _Puppet_Forge_stunnel: https://forge.puppet.com/simp/stunnel
+.. |Puppet_Forge_sudo| image:: https://img.shields.io/puppetforge/dt/simp/sudo.svg
+.. _Puppet_Forge_sudo: https://forge.puppet.com/simp/sudo
+.. |Puppet_Forge_sudosh| image:: https://img.shields.io/puppetforge/dt/simp/sudosh.svg
+.. _Puppet_Forge_sudosh: https://forge.puppet.com/simp/sudosh
+.. |Puppet_Forge_svckill| image:: https://img.shields.io/puppetforge/dt/simp/svckill.svg
+.. _Puppet_Forge_svckill: https://forge.puppet.com/simp/svckill
+.. |Puppet_Forge_sysctl| image:: https://img.shields.io/puppetforge/dt/simp/sysctl.svg
+.. _Puppet_Forge_sysctl: https://forge.puppet.com/simp/sysctl
+.. |Puppet_Forge_tcpwrappers| image:: https://img.shields.io/puppetforge/dt/simp/tcpwrappers.svg
+.. _Puppet_Forge_tcpwrappers: https://forge.puppet.com/simp/tcpwrappers
+.. |Puppet_Forge_tftpboot| image:: https://img.shields.io/puppetforge/dt/simp/tftpboot.svg
+.. _Puppet_Forge_tftpboot: https://forge.puppet.com/simp/tftpboot
+.. |Puppet_Forge_tpm| image:: https://img.shields.io/puppetforge/dt/simp/tpm.svg
+.. _Puppet_Forge_tpm: https://forge.puppet.com/simp/tpm
+.. |Puppet_Forge_upstart| image:: https://img.shields.io/puppetforge/dt/simp/upstart.svg
+.. _Puppet_Forge_upstart: https://forge.puppet.com/simp/upstart
+.. |Puppet_Forge_vnc| image:: https://img.shields.io/puppetforge/dt/simp/vnc.svg
+.. _Puppet_Forge_vnc: https://forge.puppet.com/simp/vnc
+.. |Puppet_Forge_vsftpd| image:: https://img.shields.io/puppetforge/dt/simp/vsftpd.svg
+.. _Puppet_Forge_vsftpd: https://forge.puppet.com/simp/vsftpd
+.. |Puppet_Forge_gnome| image:: https://img.shields.io/puppetforge/dt/simp/gnome.svg
+.. _Puppet_Forge_gnome: https://forge.puppet.com/simp/gnome
+.. |Puppet_Forge_xinetd| image:: https://img.shields.io/puppetforge/dt/simp/xinetd.svg
+.. _Puppet_Forge_xinetd: https://forge.puppet.com/simp/xinetd
+.. |Puppet_Forge_gdm| image:: https://img.shields.io/puppetforge/dt/simp/gdm.svg
+.. _Puppet_Forge_gdm: https://forge.puppet.com/simp/gdm
+.. |Gem_simp-rake-helpers| image:: https://img.shields.io/gem/dt/simp-rake-helpers.svg
+.. _Gem_simp-rake-helpers: https://rubygems.org/gems/simp-rake-helpers
+.. |Gem_simp-cli| image:: https://img.shields.io/gem/dt/simp-cli.svg
+.. _Gem_simp-cli: https://rubygems.org/gems/simp-cli
+.. |Puppet_Forge_site| image:: https://img.shields.io/puppetforge/dt/simp/site.svg
+.. _Puppet_Forge_site: https://forge.puppet.com/simp/site
+.. |Gem_simp-rspec-puppet-facts| image:: https://img.shields.io/gem/dt/simp-rspec-puppet-facts.svg
+.. _Gem_simp-rspec-puppet-facts: https://rubygems.org/gems/simp-rspec-puppet-facts
+.. |Puppet_Forge_foreman| image:: https://img.shields.io/puppetforge/dt/simp/foreman.svg
+.. _Puppet_Forge_foreman: https://forge.puppet.com/simp/foreman
+.. |Gem_simp-beaker-helpers| image:: https://img.shields.io/gem/dt/simp-beaker-helpers.svg
+.. _Gem_simp-beaker-helpers: https://rubygems.org/gems/simp-beaker-helpers
+.. |Puppet_Forge_simplib| image:: https://img.shields.io/puppetforge/dt/simp/simplib.svg
+.. _Puppet_Forge_simplib: https://forge.puppet.com/simp/simplib
+.. |Gem_simp-build-helpers| image:: https://img.shields.io/gem/dt/simp-build-helpers.svg
+.. _Gem_simp-build-helpers: https://rubygems.org/gems/simp-build-helpers
+.. |Puppet_Forge_compliance_markup| image:: https://img.shields.io/puppetforge/dt/simp/compliance_markup.svg
+.. _Puppet_Forge_compliance_markup: https://forge.puppet.com/simp/compliance_markup
+.. |Gem_simp-module-repoclosure| image:: https://img.shields.io/gem/dt/simp-module-repoclosure.svg
+.. _Gem_simp-module-repoclosure: https://rubygems.org/gems/simp-module-repoclosure
+.. |Puppet_Forge_libreswan| image:: https://img.shields.io/puppetforge/dt/simp/libreswan.svg
+.. _Puppet_Forge_libreswan: https://forge.puppet.com/simp/libreswan
+.. |Puppet_Forge_haveged| image:: https://img.shields.io/puppetforge/dt/simp/haveged.svg
+.. _Puppet_Forge_haveged: https://forge.puppet.com/simp/haveged
+.. |Puppet_Forge_simp_logstash| image:: https://img.shields.io/puppetforge/dt/simp/simp_logstash.svg
+.. _Puppet_Forge_simp_logstash: https://forge.puppet.com/simp/simp_logstash
+.. |Puppet_Forge_simp_elasticsearch| image:: https://img.shields.io/puppetforge/dt/simp/simp_elasticsearch.svg
+.. _Puppet_Forge_simp_elasticsearch: https://forge.puppet.com/simp/simp_elasticsearch
+.. |Puppet_Forge_simp_grafana| image:: https://img.shields.io/puppetforge/dt/simp/simp_grafana.svg
+.. _Puppet_Forge_simp_grafana: https://forge.puppet.com/simp/simp_grafana
+.. |Puppet_Forge_dirtycow| image:: https://img.shields.io/puppetforge/dt/simp/dirtycow.svg
+.. _Puppet_Forge_dirtycow: https://forge.puppet.com/simp/dirtycow
+.. |Puppet_Forge_simp_options| image:: https://img.shields.io/puppetforge/dt/simp/simp_options.svg
+.. _Puppet_Forge_simp_options: https://forge.puppet.com/simp/simp_options
+.. |Puppet_Forge_fips| image:: https://img.shields.io/puppetforge/dt/simp/fips.svg
+.. _Puppet_Forge_fips: https://forge.puppet.com/simp/fips
+.. |Puppet_Forge_swap| image:: https://img.shields.io/puppetforge/dt/simp/swap.svg
+.. _Puppet_Forge_swap: https://forge.puppet.com/simp/swap
+.. |Puppet_Forge_useradd| image:: https://img.shields.io/puppetforge/dt/simp/useradd.svg
+.. _Puppet_Forge_useradd: https://forge.puppet.com/simp/useradd
+.. |Puppet_Forge_incron| image:: https://img.shields.io/puppetforge/dt/simp/incron.svg
+.. _Puppet_Forge_incron: https://forge.puppet.com/simp/incron
+.. |Puppet_Forge_at| image:: https://img.shields.io/puppetforge/dt/simp/at.svg
+.. _Puppet_Forge_at: https://forge.puppet.com/simp/at
+.. |Puppet_Forge_chkrootkit| image:: https://img.shields.io/puppetforge/dt/simp/chkrootkit.svg
+.. _Puppet_Forge_chkrootkit: https://forge.puppet.com/simp/chkrootkit
+.. |Puppet_Forge_tuned| image:: https://img.shields.io/puppetforge/dt/simp/tuned.svg
+.. _Puppet_Forge_tuned: https://forge.puppet.com/simp/tuned
+.. |Puppet_Forge_cron| image:: https://img.shields.io/puppetforge/dt/simp/cron.svg
+.. _Puppet_Forge_cron: https://forge.puppet.com/simp/cron
+.. |Puppet_Forge_resolv| image:: https://img.shields.io/puppetforge/dt/simp/resolv.svg
+.. _Puppet_Forge_resolv: https://forge.puppet.com/simp/resolv
+.. |Puppet_Forge_simp_rsyslog| image:: https://img.shields.io/puppetforge/dt/simp/simp_rsyslog.svg
+.. _Puppet_Forge_simp_rsyslog: https://forge.puppet.com/simp/simp_rsyslog
+.. |Puppet_Forge_timezone| image:: https://img.shields.io/puppetforge/dt/simp/timezone.svg
+.. _Puppet_Forge_timezone: https://forge.puppet.com/simp/timezone
+.. |Puppet_Forge_issue| image:: https://img.shields.io/puppetforge/dt/simp/issue.svg
+.. _Puppet_Forge_issue: https://forge.puppet.com/simp/issue
+.. |Puppet_Forge_simp_nfs| image:: https://img.shields.io/puppetforge/dt/simp/simp_nfs.svg
+.. _Puppet_Forge_simp_nfs: https://forge.puppet.com/simp/simp_nfs
+.. |Puppet_Forge_simp_snmpd| image:: https://img.shields.io/puppetforge/dt/simp/simp_snmpd.svg
+.. _Puppet_Forge_simp_snmpd: https://forge.puppet.com/simp/simp_snmpd
 
 
 .. _Apache License, Version 2: http://www.apache.org/licenses/LICENSE-2.0.html
