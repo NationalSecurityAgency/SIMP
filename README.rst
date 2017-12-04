@@ -43,7 +43,7 @@ Latest Releases
 
 ----------------------------------------
 
-- `6.1.0-RC1 <https://simp.readthedocs.io/en/6.1.0-rc1/dynamic/Changelog.html>`__
+- `6.1.0-0 <https://simp.readthedocs.io/en/6.1.0-0/dynamic/Changelog.html>`__
 
 - `6.0.0-0 <https://simp.readthedocs.io/6.0.0-0/dynamic/Changelog.html>`__
 
@@ -122,8 +122,8 @@ Release RPMs are now hosted on `PackageCloud`_.
 
 Look for the repository that is associated with the version of SIMP that you
 wish to build. The latest packages can always be found in the ``.X``
-repositories. For example, the latest 4 series packages would be found in the
-``4.X`` repository.
+repositories. For example, the latest 6 series packages would be found in the
+``6.X`` repository.
 
 Please make sure that the RPMs are properly signed with the GPG key
 listed below.
