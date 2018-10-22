@@ -37,15 +37,17 @@ Latest Releases
 
   Release packages are hosted on `PackageCloud`_
 
-  Release Tarballs and ISOs (`CentOS`_ powered) can be found at https://simp-project.com/ISO/SIMP
+  Release Tarballs and ISOs (`CentOS`_ powered) can be found at https://simp-project.com
 
   There is also a `RPM archive`_ availble.
 
 ----------------------------------------
 
+- `6.2.0-0 <https://simp.readthedocs.io/en/6.2.0-0/dynamic/Changelog.html>`__
+
 - `6.1.0-0 <https://simp.readthedocs.io/en/6.1.0-0/dynamic/Changelog.html>`__
 
-- `6.0.0-0 <https://simp.readthedocs.io/6.0.0-0/dynamic/Changelog.html>`__
+- `6.0.0-0 <https://simp.readthedocs.io/en/6.0.0-0/dynamic/Changelog.html>`__
 
 Where's the code?!
 ==================
@@ -118,7 +120,8 @@ under the `SIMP Project`_.
 RPMs
 ^^^^
 
-Release RPMs are now hosted on `PackageCloud`_.
+Rolling RPM releases are hosted on `PackageCloud`_. You can find version
+snapshots of RPMs in the `RPM archive`_.
 
 Look for the repository that is associated with the version of SIMP that you
 wish to build. The latest packages can always be found in the ``.X``
@@ -134,6 +137,11 @@ GPG Signing Key
 All officially released RPMs are signed with the `SIMP Release Key`_
 
 \* ID: 7DA6F216 \* Fingerprint: 103B 439D ADF4 AE61 FA69 98AF EE8C 77AF 7DA6 F216
+
+A `SIMP 6 Specific GPG signing key`_ has been added with the following
+attributes:
+
+\* ID: 7667220F \* Fingerprint: F21E A54D 9C5A A9A5 AF7F E002 1B5B 16A2 7667 220F
 
 Build Repositories
 ^^^^^^^^^^^^^^^^^^
@@ -158,7 +166,7 @@ Helper Rubygems
 -  `rubygem-simp-beaker-helpers <https://github.com/simp/rubygem-simp-beaker-helpers>`__ |Gem_simp-beaker-helpers|_
 -  `rubygem-simp-build-helpers <https://github.com/simp/rubygem-simp-build-helpers>`__ |Gem_simp-build-helpers|_
 -  `rubygem-simp-cli <https://github.com/simp/rubygem-simp-cli>`__ |Gem_simp-cli|_
--  `rubygem-simp-metadata <https://github.com/simp/rubygem-simp-metadata>`__
+-  `rubygem-simp-metadata <https://github.com/simp/rubygem-simp-metadata>`__ |Gem_simp-metadata|_
 -  `rubygem-simp-module-repoclosure <https://github.com/simp/rubygem-simp-module-repoclosure>`__ |Gem_simp-module-repoclosure|_
 -  `rubygem-simp-processgraph <https://github.com/simp/rubygem-simp-processgraph>`__
 -  `rubygem-simp-rake-helpers <https://github.com/simp/rubygem-simp-rake-helpers>`__ |Gem_simp-rake-helpers|_
@@ -183,51 +191,41 @@ Monitoring Dashboards
 SIMP Repositories
 ^^^^^^^^^^^^^^^^^
 
--  `pkg-r10k <https://github.com/simp/pkg-r10k>`__
 -  `pupmod-simp-acpid <https://github.com/simp/pupmod-simp-acpid>`__ |Puppet_Forge_acpid|_
 -  `pupmod-simp-activemq <https://github.com/simp/pupmod-simp-activemq>`__ |Puppet_Forge_activemq|_
 -  `pupmod-simp-aide <https://github.com/simp/pupmod-simp-aide>`__ |Puppet_Forge_aide|_
 -  `pupmod-simp-at <https://github.com/simp/pupmod-simp-at>`__ |Puppet_Forge_at|_
 -  `pupmod-simp-auditd <https://github.com/simp/pupmod-simp-auditd>`__ |Puppet_Forge_auditd|_
 -  `pupmod-simp-autofs <https://github.com/simp/pupmod-simp-autofs>`__ |Puppet_Forge_autofs|_
--  `pupmod-simp-backuppc <https://github.com/simp/pupmod-simp-backuppc>`__
--  `pupmod-simp-cgroups <https://github.com/simp/pupmod-simp-cgroups>`__
 -  `pupmod-simp-chkrootkit <https://github.com/simp/pupmod-simp-chkrootkit>`__ |Puppet_Forge_chkrootkit|_
 -  `pupmod-simp-clamav <https://github.com/simp/pupmod-simp-clamav>`__ |Puppet_Forge_clamav|_
--  `pupmod-simp-common <https://github.com/simp/pupmod-simp-common>`__
 -  `pupmod-simp-compliance_markup <https://github.com/simp/pupmod-simp-compliance_markup>`__ |Puppet_Forge_compliance_markup|_
 -  `pupmod-simp-cron <https://github.com/simp/pupmod-simp-cron>`__ |Puppet_Forge_cron|_
+-  `pupmod-simp-dconf <https://github.com/simp/pupmod-simp-dconf>`__ |Puppet_Forge_dconf|_
 -  `pupmod-simp-dhcp <https://github.com/simp/pupmod-simp-dhcp>`__ |Puppet_Forge_dhcp|_
 -  `pupmod-simp-dirtycow <https://github.com/simp/pupmod-simp-dirtycow>`__ |Puppet_Forge_dirtycow|_
--  `pupmod-simp-etcd <https://github.com/simp/pupmod-simp-etcd>`__
 -  `pupmod-simp-fips <https://github.com/simp/pupmod-simp-fips>`__ |Puppet_Forge_fips|_
 -  `pupmod-simp-foreman <https://github.com/simp/pupmod-simp-foreman>`__ |Puppet_Forge_foreman|_
 -  `pupmod-simp-freeradius <https://github.com/simp/pupmod-simp-freeradius>`__ |Puppet_Forge_freeradius|_
--  `pupmod-simp-functions <https://github.com/simp/pupmod-simp-functions>`__
 -  `pupmod-simp-ganglia <https://github.com/simp/pupmod-simp-ganglia>`__ |Puppet_Forge_ganglia|_
 -  `pupmod-simp-gdm <https://github.com/simp/pupmod-simp-gdm>`__ |Puppet_Forge_gdm|_
--  `pupmod-simp-gfs2 <https://github.com/simp/pupmod-simp-gfs2>`__
 -  `pupmod-simp-gnome <https://github.com/simp/pupmod-simp-gnome>`__ |Puppet_Forge_gnome|_
 -  `pupmod-simp-haveged <https://github.com/simp/pupmod-simp-haveged>`__ |Puppet_Forge_haveged|_
 -  `pupmod-simp-incron <https://github.com/simp/pupmod-simp-incron>`__ |Puppet_Forge_incron|_
 -  `pupmod-simp-iptables <https://github.com/simp/pupmod-simp-iptables>`__ |Puppet_Forge_iptables|_
 -  `pupmod-simp-issue <https://github.com/simp/pupmod-simp-issue>`__ |Puppet_Forge_issue|_
 -  `pupmod-simp-jenkins <https://github.com/simp/pupmod-simp-jenkins>`__ |Puppet_Forge_jenkins|_
--  `pupmod-simp-journald <https://github.com/simp/pupmod-simp-journald>`__
--  `pupmod-simp-kibana <https://github.com/simp/pupmod-simp-kibana>`__
 -  `pupmod-simp-krb5 <https://github.com/simp/pupmod-simp-krb5>`__ |Puppet_Forge_krb5|_
--  `pupmod-simp-libkv <https://github.com/simp/pupmod-simp-libkv>`__
+-  `pupmod-simp-libkv <https://github.com/simp/pupmod-simp-libkv>`__ |Puppet_Forge_libkv|_
 -  `pupmod-simp-libreswan <https://github.com/simp/pupmod-simp-libreswan>`__ |Puppet_Forge_libreswan|_
 -  `pupmod-simp-libvirt <https://github.com/simp/pupmod-simp-libvirt>`__ |Puppet_Forge_libvirt|_
--  `pupmod-simp-localusers <https://github.com/simp/pupmod-simp-localusers>`__
 -  `pupmod-simp-logrotate <https://github.com/simp/pupmod-simp-logrotate>`__ |Puppet_Forge_logrotate|_
+-  `pupmod-simp-mate <https://github.com/simp/pupmod-simp-mate>`__ |Puppet_Forge_mate|_
 -  `pupmod-simp-mcafee <https://github.com/simp/pupmod-simp-mcafee>`__ |Puppet_Forge_mcafee|_
 -  `pupmod-simp-mozilla <https://github.com/simp/pupmod-simp-mozilla>`__ |Puppet_Forge_mozilla|_
--  `pupmod-simp-multipathd <https://github.com/simp/pupmod-simp-multipathd>`__
 -  `pupmod-simp-named <https://github.com/simp/pupmod-simp-named>`__ |Puppet_Forge_named|_
 -  `pupmod-simp-network <https://github.com/simp/pupmod-simp-network>`__ |Puppet_Forge_network|_
 -  `pupmod-simp-nfs <https://github.com/simp/pupmod-simp-nfs>`__ |Puppet_Forge_nfs|_
--  `pupmod-simp-nifi <https://github.com/simp/pupmod-simp-nifi>`__
 -  `pupmod-simp-nscd <https://github.com/simp/pupmod-simp-nscd>`__ |Puppet_Forge_nscd|_
 -  `pupmod-simp-ntpd <https://github.com/simp/pupmod-simp-ntpd>`__ |Puppet_Forge_ntpd|_
 -  `pupmod-simp-oddjob <https://github.com/simp/pupmod-simp-oddjob>`__ |Puppet_Forge_oddjob|_
@@ -241,13 +239,13 @@ SIMP Repositories
 -  `pupmod-simp-rsync <https://github.com/simp/pupmod-simp-rsync>`__ |Puppet_Forge_rsync|_
 -  `pupmod-simp-rsyslog <https://github.com/simp/pupmod-simp-rsyslog>`__ |Puppet_Forge_rsyslog|_
 -  `pupmod-simp-selinux <https://github.com/simp/pupmod-simp-selinux>`__ |Puppet_Forge_selinux|_
--  `pupmod-simp-shinken <https://github.com/simp/pupmod-simp-shinken>`__
 -  `pupmod-simp-simp <https://github.com/simp/pupmod-simp-simp>`__ |Puppet_Forge_simp|_
 -  `pupmod-simp-simp_apache <https://github.com/simp/pupmod-simp-simp_apache>`__ |Puppet_Forge_simp_apache|_
--  `pupmod-simp-simp_choria <https://github.com/simp/pupmod-simp-simp_choria>`__
+-  `pupmod-simp-simp_docker <https://github.com/simp/pupmod-simp-simp_docker>`__ |Puppet_Forge_simp_docker|_
 -  `pupmod-simp-simp_elasticsearch <https://github.com/simp/pupmod-simp-simp_elasticsearch>`__ |Puppet_Forge_simp_elasticsearch|_
--  `pupmod-simp-simp_gitlab <https://github.com/simp/pupmod-simp-simp_gitlab>`__
+-  `pupmod-simp-simp_gitlab <https://github.com/simp/pupmod-simp-simp_gitlab>`__ |Puppet_Forge_simp_gitlab|_
 -  `pupmod-simp-simp_grafana <https://github.com/simp/pupmod-simp-simp_grafana>`__ |Puppet_Forge_simp_grafana|_
+-  `pupmod-simp-simp_ipa <https://github.com/simp/pupmod-simp-simp_ipa>`__ |Puppet_Forge_simp_ipa|_
 -  `pupmod-simp-simp_logstash <https://github.com/simp/pupmod-simp-simp_logstash>`__ |Puppet_Forge_simp_logstash|_
 -  `pupmod-simp-simp_nfs <https://github.com/simp/pupmod-simp-simp_nfs>`__ |Puppet_Forge_simp_nfs|_
 -  `pupmod-simp-simp_openldap <https://github.com/simp/pupmod-simp-simp_openldap>`__ |Puppet_Forge_simp_openldap|_
@@ -276,19 +274,11 @@ SIMP Repositories
 -  `pupmod-simp-vnc <https://github.com/simp/pupmod-simp-vnc>`__ |Puppet_Forge_vnc|_
 -  `pupmod-simp-vsftpd <https://github.com/simp/pupmod-simp-vsftpd>`__ |Puppet_Forge_vsftpd|_
 -  `pupmod-simp-xinetd <https://github.com/simp/pupmod-simp-xinetd>`__ |Puppet_Forge_xinetd|_
--  `puppet-gpasswd <https://github.com/simp/puppet-gpasswd>`__
--  `simp-adapter <https://github.com/simp/simp-adapter>`__
--  `simp-environment-skeleton <https://github.com/simp/simp-environment-skeleton>`__
--  `simp-gitlab-custom-hooks <https://github.com/simp/simp-gitlab-custom-hooks>`__
--  `simp-gpgkeys <https://github.com/simp/simp-gpgkeys>`__
--  `simp-metadata <https://github.com/simp/simp-metadata>`__
--  `simp-ore-rubygem-skeleton <https://github.com/simp/simp-ore-rubygem-skeleton>`__
--  `simp-rsync-skeleton <https://github.com/simp/simp-rsync-skeleton>`__
--  `simp-utils <https://github.com/simp/simp-utils>`__
 
 Forked Repositories
 ^^^^^^^^^^^^^^^^^^^
 
+-  `NIST-800-18-SSP_Template <https://github.com/simp/NIST-800-18-SSP_Template>`__
 -  `augeasproviders <https://github.com/simp/augeasproviders>`__
 -  `augeasproviders_apache <https://github.com/simp/augeasproviders_apache>`__
 -  `augeasproviders_base <https://github.com/simp/augeasproviders_base>`__
@@ -302,13 +292,23 @@ Forked Repositories
 -  `augeasproviders_shellvar <https://github.com/simp/augeasproviders_shellvar>`__
 -  `augeasproviders_ssh <https://github.com/simp/augeasproviders_ssh>`__
 -  `augeasproviders_sysctl <https://github.com/simp/augeasproviders_sysctl>`__
+-  `best-practices <https://github.com/simp/best-practices>`__
 -  `binford2k-node_encrypt <https://github.com/simp/binford2k-node_encrypt>`__
+-  `local_security_policy <https://github.com/simp/local_security_policy>`__
+-  `pdk-templates <https://github.com/simp/pdk-templates>`__
 -  `pupmod-puppetlabs-hocon <https://github.com/simp/pupmod-puppetlabs-hocon>`__
+-  `pupmod-puppetlabs-translate <https://github.com/simp/pupmod-puppetlabs-translate>`__
+-  `pupmod-voxpupuli-selinux <https://github.com/simp/pupmod-voxpupuli-selinux>`__
 -  `puppet-archive <https://github.com/simp/puppet-archive>`__
+-  `puppet-auditpol <https://github.com/simp/puppet-auditpol>`__
 -  `puppet-bundle-face <https://github.com/simp/puppet-bundle-face>`__
 -  `puppet-consul <https://github.com/simp/puppet-consul>`__
 -  `puppet-datacat <https://github.com/simp/puppet-datacat>`__
+-  `puppet-docs <https://github.com/simp/puppet-docs>`__
 -  `puppet-elasticsearch <https://github.com/simp/puppet-elasticsearch>`__
+-  `puppet-etcd <https://github.com/simp/puppet-etcd>`__
+-  `puppet-filebeat <https://github.com/simp/puppet-filebeat>`__
+-  `puppet-firewalld <https://github.com/simp/puppet-firewalld>`__
 -  `puppet-gitlab <https://github.com/simp/puppet-gitlab>`__
 -  `puppet-grafana <https://github.com/simp/puppet-grafana>`__
 -  `puppet-kmod <https://github.com/simp/puppet-kmod>`__
@@ -317,19 +317,30 @@ Forked Repositories
 -  `puppet-memcached <https://github.com/simp/puppet-memcached>`__
 -  `puppet-nats <https://github.com/simp/puppet-nats>`__
 -  `puppet-nsswitch <https://github.com/simp/puppet-nsswitch>`__
+-  `puppet-remote_file <https://github.com/simp/puppet-remote_file>`__
 -  `puppet-snmp <https://github.com/simp/puppet-snmp>`__
 -  `puppet-systemd <https://github.com/simp/puppet-systemd>`__
+-  `puppet-windows_firewall <https://github.com/simp/puppet-windows_firewall>`__
+-  `puppet-windowsfeature <https://github.com/simp/puppet-windowsfeature>`__
+-  `puppet-winlogbeat <https://github.com/simp/puppet-winlogbeat>`__
 -  `puppetlabs-apache <https://github.com/simp/puppetlabs-apache>`__
+-  `puppetlabs-chocolatey <https://github.com/simp/puppetlabs-chocolatey>`__
 -  `puppetlabs-concat <https://github.com/simp/puppetlabs-concat>`__
+-  `puppetlabs-docker <https://github.com/simp/puppetlabs-docker>`__
+-  `puppetlabs-firewall <https://github.com/simp/puppetlabs-firewall>`__
 -  `puppetlabs-inifile <https://github.com/simp/puppetlabs-inifile>`__
 -  `puppetlabs-java <https://github.com/simp/puppetlabs-java>`__
 -  `puppetlabs-java_ks <https://github.com/simp/puppetlabs-java_ks>`__
 -  `puppetlabs-motd <https://github.com/simp/puppetlabs-motd>`__
+-  `puppetlabs-mount_providers <https://github.com/simp/puppetlabs-mount_providers>`__
 -  `puppetlabs-mysql <https://github.com/simp/puppetlabs-mysql>`__
 -  `puppetlabs-postgresql <https://github.com/simp/puppetlabs-postgresql>`__
+-  `puppetlabs-powershell <https://github.com/simp/puppetlabs-powershell>`__
 -  `puppetlabs-puppet_authorization <https://github.com/simp/puppetlabs-puppet_authorization>`__
 -  `puppetlabs-puppetdb <https://github.com/simp/puppetlabs-puppetdb>`__
+-  `puppetlabs-registry <https://github.com/simp/puppetlabs-registry>`__
 -  `puppetlabs-stdlib <https://github.com/simp/puppetlabs-stdlib>`__
+-  `registry_acl <https://github.com/simp/registry_acl>`__
 -  `voxpupuli-yum <https://github.com/simp/voxpupuli-yum>`__
 
 .. |Puppet_Forge_acpid| image:: https://img.shields.io/puppetforge/dt/simp/acpid.svg
@@ -498,8 +509,22 @@ Forked Repositories
 .. _Puppet_Forge_issue: https://forge.puppet.com/simp/issue
 .. |Puppet_Forge_simp_nfs| image:: https://img.shields.io/puppetforge/dt/simp/simp_nfs.svg
 .. _Puppet_Forge_simp_nfs: https://forge.puppet.com/simp/simp_nfs
+.. |Puppet_Forge_libkv| image:: https://img.shields.io/puppetforge/dt/simp/libkv.svg
+.. _Puppet_Forge_libkv: https://forge.puppet.com/simp/libkv
+.. |Puppet_Forge_simp_gitlab| image:: https://img.shields.io/puppetforge/dt/simp/simp_gitlab.svg
+.. _Puppet_Forge_simp_gitlab: https://forge.puppet.com/simp/simp_gitlab
+.. |Gem_simp-metadata| image:: https://img.shields.io/gem/dt/simp-metadata.svg
+.. _Gem_simp-metadata: https://rubygems.org/gems/simp-metadata
 .. |Puppet_Forge_simp_snmpd| image:: https://img.shields.io/puppetforge/dt/simp/simp_snmpd.svg
 .. _Puppet_Forge_simp_snmpd: https://forge.puppet.com/simp/simp_snmpd
+.. |Puppet_Forge_simp_docker| image:: https://img.shields.io/puppetforge/dt/simp/simp_docker.svg
+.. _Puppet_Forge_simp_docker: https://forge.puppet.com/simp/simp_docker
+.. |Puppet_Forge_mate| image:: https://img.shields.io/puppetforge/dt/simp/mate.svg
+.. _Puppet_Forge_mate: https://forge.puppet.com/simp/mate
+.. |Puppet_Forge_dconf| image:: https://img.shields.io/puppetforge/dt/simp/dconf.svg
+.. _Puppet_Forge_dconf: https://forge.puppet.com/simp/dconf
+.. |Puppet_Forge_simp_ipa| image:: https://img.shields.io/puppetforge/dt/simp/simp_ipa.svg
+.. _Puppet_Forge_simp_ipa: https://forge.puppet.com/simp/simp_ipa
 
 
 .. _Apache License, Version 2: http://www.apache.org/licenses/LICENSE-2.0.html
@@ -511,13 +536,13 @@ Forked Repositories
 .. _Open Changes: https://github.com/search?o=desc&q=org%3Asimp+is%3Apr+is%3Aopen&ref=searchresults&s=updated&type=Issues&utf8=%E2%9C%93
 .. _PackageCloud: https://packagecloud.io/simp-project
 .. _Puppet: https://puppet.com
-.. _RPM archive: https://simp-project.com/yum/SIMP
+.. _RPM archive: https://download.simp-project.com/SIMP/archive/yum
 .. _ReadTheDocs.org: https://simp.readthedocs.io/en/latest
 .. _Red Hat Enterprise Linux: http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
 .. _SCAP Security Guide: http://www.open-scap.org/security-policies/scap-security-guide
+.. _SIMP 6 Specific GPG signing key: https://download.simp-project.com/SIMP/GPGKEYS/RPM-GPG-KEY-SIMP-6
 .. _SIMP Documentation: http://simp.readthedocs.io/en/latest
 .. _SIMP GitHub Organization: https://github.com/simp/simp-core
-.. _SIMP Project HipChat: https://www.hipchat.com/ggkCeNuLk
 .. _SIMP Project JIRA: https://simp-project.atlassian.net
 .. _SIMP Project: https://github.com/simp
 .. _SIMP Release Key: https://github.com/NationalSecurityAgency/SIMP/blob/master/GPGKEYS/RPM-GPG-KEY-SIMP

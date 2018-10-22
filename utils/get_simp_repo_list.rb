@@ -56,7 +56,7 @@ to_ignore = [
   'mcollective',
   'inspec_profiles',
   'education-builds',
-  'pupmod-mock-'
+  'pupmod-mock-',
 ]
 
 build_repos = {}
@@ -137,6 +137,8 @@ repos.each do |repo|
       simp_repos[repo[:name]][:forge_badge] = %{|Puppet_Forge_#{short_name}|_}
 
       simp_repos[repo[:name]][:url_string] << ' ' + simp_repos[repo[:name]][:forge_badge]
+    else
+      simp_repos.delete(repo[:name])
     end
   else
     external_repos[repo[:name]] = {
