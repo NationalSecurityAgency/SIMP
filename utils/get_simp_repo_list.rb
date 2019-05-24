@@ -66,6 +66,7 @@ inspec_repos = {}
 monitoring_repos = {}
 simp_repos = {}
 external_repos = {}
+misc_repos = nil
 
 image_links = []
 
@@ -140,8 +141,15 @@ repos.each do |repo|
     else
       simp_repos.delete(repo[:name])
     end
-  else
+  elsif repo.fork
     external_repos[repo[:name]] = {
+      :url => repo[:html_url],
+      :url_string => %(-  `#{repo[:name]} <#{repo[:html_url]}>`__)
+    }
+  else
+    misc_repos ||= {}
+
+    misc_repos[repo[:name]] = {
       :url => repo[:html_url],
       :url_string => %(-  `#{repo[:name]} <#{repo[:html_url]}>`__)
     }
@@ -154,6 +162,7 @@ rubygem_repos.delete_if{|x| x =~ /#{to_ignore.join('|')}/} if rubygem_repos
 monitoring_repos.delete_if{|x| x =~ /#{to_ignore.join('|')}/} if monitoring_repos
 simp_repos.delete_if{|x| x =~ /#{to_ignore.join('|')}/} if simp_repos
 external_repos.delete_if{|x| x =~ /#{to_ignore.join('|')}/} if external_repos
+misc_repos.delete_if{|x| x =~ /#{to_ignore.join('|')}/} if misc_repos
 
 puts <<-EOM
 Build Repositories
@@ -197,6 +206,18 @@ Forked Repositories
 ^^^^^^^^^^^^^^^^^^^
 
 #{external_repos.keys.sort.map{|repo| external_repos[repo][:url_string] }.join("\n") if external_repos}
-
-#{image_links.join}
 EOM
+
+
+if misc_repos
+  puts <<-EOM
+
+Miscellaneous Repositories
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#{misc_repos.keys.sort.map{|repo| misc_repos[repo][:url_string] }.join("\n")}
+
+  EOM
+end
+
+puts image_links.join
